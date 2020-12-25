@@ -1,0 +1,35 @@
+.subHeader {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #232f3e;
+    top: 0;
+    z-index: 100;
+    font-size: 14px;
+}
+
+.subHeader__left {
+    display: flex;
+    align-items: center;
+}
+
+.subHeader__menu {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.subHeader__all {
+    font-weight: 800;
+}
+
+.subHeader__nav {
+    font-weight: 500;
+    color: white;
+}
+
+.subHeader__navMsg {
+    font-weight: 700;
+    color: white;
+}
