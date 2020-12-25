@@ -10,14 +10,15 @@
 .header__left {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
 }
 
 .header__logo {
     width: 100px;
     object-fit: contain;
-    margin: 0 10px;
-    margin-top: 8px;
-    padding: 5px;
+    margin: 1px;
+    padding: 6px 4px 6px 5px;
     border: 1px solid transparent;
 }
 
@@ -27,12 +28,24 @@
 
 .header__deliveryAddress {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    margin: 1px;
+    padding: 6px 0px 6px 0px;
+}
+
+.header__deliveryAddress:hover {
+    border: 1px solid whitesmoke;
 }
 
 .header__locationOnIcon {
     color: white;
     padding: 5px;
     height: 22px !important;
+    display: flex;
+    align-self: flex-end;
+    justify-self: self-end;
 }
 
 .header__location {
@@ -87,6 +100,7 @@
 
 .header__optionLineOne {
     font-size: 12px;
+    font-weight: 500;
 }
 
 .header__optionLineTwo {
