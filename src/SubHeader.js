@@ -24,7 +24,7 @@ function SubHeader() {
 
             <div className='subHeader__navMsg'>
                 <span className='subHeader__msg'>
-                    Amazin response to COVID-19
+                    Amazin's response to COVID-19
                 </span>
             </div>
         </div>

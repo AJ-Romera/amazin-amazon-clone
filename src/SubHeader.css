@@ -17,7 +17,15 @@
 .subHeader__menu {
     display: flex;
     align-items: center;
+    margin-left: 15px;
+    padding: 2px 5px;
     color: white;
+    border: 1px solid transparent;
+}
+
+.subHeader__menu:hover {
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
 }
 
 .subHeader__all {
@@ -29,7 +37,28 @@
     color: white;
 }
 
+.subHeader__option {
+    padding: 5px 10px;
+    border: 1px solid transparent;
+}
+
+.subHeader__option:hover {
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+}
+
 .subHeader__navMsg {
     font-weight: 700;
     color: white;
+}
+
+.subHeader__msg {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+}
+
+.subHeader__msg:hover {
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
 }
