@@ -19,7 +19,7 @@
     min-height: 500px;
     object-fit: cover;
     z-index: -1;
-    margin-bottom: -250px;
+    margin-bottom: -300px;
     mask-position: bottom;
     mask-image: linear-gradient(
         to bottom,
