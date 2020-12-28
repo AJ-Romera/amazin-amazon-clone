@@ -1,6 +1,9 @@
 import React from 'react';
-import CardUiQuad from './CardUiQuad';
 import './Home.css';
+
+/* Components */
+import CardUiFat from './CardUiFat';
+import CardUiQuad from './CardUiQuad';
 
 function Home() {
     return (
@@ -15,25 +18,65 @@ function Home() {
 
                 <div className='home__row'>
                     <CardUiQuad />
-                    <CardUiQuad />
-                    <CardUiQuad />
-                    <CardUiQuad />
-                    {/* CARDUIFATIMG */}
-                    {/* CARDUIFATIMG */}
+                    <CardUiFat />
+                    <CardUiFat />
+                    <CardUiFat />
+                    {/* Here CardUiDouble */}
+                </div>
+
+                <div className='home__row'>
+                    <CardUiFat />
+                    <CardUiFat />
+                    <CardUiFat />
+                    <CardUiFat />
+                </div>
+
+                <div className='home__row'>
+                    <h1>SLIDER TYPE 1 HERE</h1>
+                    {/* SliderWithScrollType1 */}
+                </div>
+
+                <div className='home__row'>
+                    <h1>SLIDER TYPE 2 HERE</h1>
+                    {/* SliderWithScrollType2 */}
+                </div>
+
+                <div className='home__row'>
+                    <h1>SLIDER TYPE 2 HERE</h1>
+                    {/* SliderWithScrollType2 */}
                 </div>
 
                 <div className='home__row'>
                     <CardUiQuad />
-                    <CardUiQuad />
-                    <CardUiQuad />
-                    <CardUiQuad />
-                    {/* CARDUIFATIMG */}
-                    {/* CARDUIFATIMG */}
-                    {/* CARDUIFATIMG */}
-                    {/* CARDUIFATIMG */}
+                    <CardUiFat />
+                    <CardUiFat />
+                    <CardUiFat />
                 </div>
 
-                <div className='home__row'></div>
+                <div className='home__row'>
+                    <h1>SLIDER TYPE 2 HERE</h1>
+                    {/* SliderWithScrollType2 */}
+                </div>
+
+                <div className='home__row'>
+                    <h1>SLIDER TYPE 2 HERE</h1>
+                    {/* SliderWithScrollType2 */}
+                </div>
+
+                <div className='home__row'>
+                    <h1>SLIDER TYPE 2 HERE</h1>
+                    {/* SliderWithScrollType2 */}
+                </div>
+
+                <div className='home__row'>
+                    <h1>SLIDER TYPE 2 HERE</h1>
+                    {/* SliderWithScrollType2 */}
+                </div>
+
+                <div className='home__row'>
+                    <h1>SLIDER TYPE 2 HERE</h1>
+                    {/* SliderWithScrollType2 */}
+                </div>
             </div>
         </div>
     );

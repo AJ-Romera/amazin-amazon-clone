@@ -12,6 +12,8 @@ function App() {
             <Header />
             <SubHeader />
             <Home />
+            {/* PersonalizedRecomendations */}
+            {/* Footer */}
         </div>
     );
 }
