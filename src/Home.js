@@ -4,6 +4,7 @@ import './Home.css';
 /* Components */
 import CardUiFat from './CardUiFat';
 import CardUiQuad from './CardUiQuad';
+import CardUiPair from './CardUiPair';
 
 function Home() {
     return (
@@ -12,7 +13,7 @@ function Home() {
                 {/* CARROUSEL / IMG SLIDER */}
                 <img
                     className='home__image'
-                    src='https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg'
+                    src='https://images-eu.ssl-images-amazon.com/images/G/30/digital/video/gateway/placement/launch/ElCidS1/ECID_S1_GWBleedingHero_FT_COVIDUPDATE_XSite_1500X600_PV_es-ES._CB413915935_.jpg'
                     alt='Home Background'
                 />
 
@@ -20,8 +21,7 @@ function Home() {
                     <CardUiQuad />
                     <CardUiFat />
                     <CardUiFat />
-                    <CardUiFat />
-                    {/* Here CardUiDouble */}
+                    <CardUiPair />
                 </div>
 
                 <div className='home__row'>
