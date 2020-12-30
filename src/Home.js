@@ -18,7 +18,19 @@ function Home() {
                 />
 
                 <div className='home__row'>
-                    <CardUiQuad />
+                    <CardUiQuad
+                        title='Shop by Category'
+                        tlImg='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/computer120x._SY85_CB468850970_.jpg'
+                        trImg='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/August/DashboardCard/PS4_120X._SY85_CB438749318_.jpg'
+                        blImg='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/Baby120X._SY85_CB468850882_.jpg'
+                        brImg='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/Toys120X._SY85_CB468851693_.jpg'
+                        tlSubTitle='Computers & Accessories'
+                        trSubTitle='Video Games'
+                        blSubTitle='Baby'
+                        brSubTitle='Toys & Games'
+                        footerLink='https://www.google.es'
+                        footerText='Shop Now'
+                    />
                     <CardUiFat />
                     <CardUiFat />
                     <CardUiPair />

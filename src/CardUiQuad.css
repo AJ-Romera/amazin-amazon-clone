@@ -1,7 +1,6 @@
 .cardUiQuad {
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-end; */
     margin: 15px 10px 10px 10px;
     padding: 20px 0 15px 0;
     width: 100%;
@@ -29,7 +28,7 @@
     display: flex;
     flex-direction: column;
     padding: 0 20px 56px 20px;
-    margin-bottom: 0;
+    margin-bottom: 16px;
 }
 
 .cardUiQuad__row1 {
@@ -44,13 +43,23 @@
     margin-bottom: 4px;
 }
 
+.cardUiQuad__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 5px 5px 3px; */
+    margin-right: 2px;
+    width: 100%;
+    background-color: #f2fafb;
+}
+
 .cardUiQuad__portion {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 5px 5px 3px;
-    width: 49.5%;
+    /* padding: 5px 5px 3px; */
+    width: 75.5%;
     background-color: #f2fafb;
 }
 
@@ -63,11 +72,8 @@
 }
 
 .cardUiQuad__image {
-    height: 85px;
-    margin: auto;
-    max-width: 100%;
-    max-height: 100%;
-    width: 100%;
+    /* height: 85px; */
+    padding: 5px 5px 3px;
     object-fit: contain;
 }
 
