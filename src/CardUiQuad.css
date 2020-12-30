@@ -72,9 +72,8 @@
 }
 
 .cardUiQuad__image {
-    /* height: 85px; */
-    padding: 5px 5px 3px;
-    object-fit: contain;
+    height: 85px;
+    object-fit: content;
 }
 
 .cardUiQuad__textContainer {

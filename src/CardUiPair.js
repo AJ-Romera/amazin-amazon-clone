@@ -1,7 +1,7 @@
 import React from 'react';
 import './CardUiPair.css';
 
-function CardUiPair() {
+function CardUiPair({ image }) {
     return (
         <div className='cardUiPair'>
             <div className='cardUiPair__sectionOne'>
@@ -19,7 +19,7 @@ function CardUiPair() {
                 <div className='cardUiPair__container'>
                     <a href='https://www.google.es'>
                         <img
-                            src='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/October/Fuji_D2_45M_en_US_1x._CB418309979_.jpg'
+                            src={image}
                             alt='We ship 45 million products around the world'
                         />
                     </a>
