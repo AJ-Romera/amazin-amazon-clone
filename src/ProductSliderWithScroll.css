@@ -1,0 +1,16 @@
+.ProductSliderWithScroll__box {
+    width: 300px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ProductSliderWithScroll__slideImg {
+    height: 450px;
+}
+
+.ProductSliderWithScroll__slideImg a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}

@@ -5,6 +5,7 @@ import './Home.css';
 import CardUiFat from './CardUiFat';
 import CardUiQuad from './CardUiQuad';
 import CardUiPair from './CardUiPair';
+import ProductSliderWithScroll from './ProductSliderWithScroll';
 
 function Home() {
     return (
@@ -74,19 +75,16 @@ function Home() {
                 </div>
 
                 <div className='home__row'>
-                    <h1>SLIDER TYPE 1 HERE</h1>
-                    {/* SliderWithScrollType1 */}
+                    <ProductSliderWithScroll />
+                </div>
+
+                {/* <div className='home__row'>
+                    <ProductSliderWithScroll />
                 </div>
 
                 <div className='home__row'>
-                    <h1>SLIDER TYPE 2 HERE</h1>
-                    {/* SliderWithScrollType2 */}
-                </div>
-
-                <div className='home__row'>
-                    <h1>SLIDER TYPE 2 HERE</h1>
-                    {/* SliderWithScrollType2 */}
-                </div>
+                    <ProductSliderWithScroll />
+                </div> */}
 
                 <div className='home__row'>
                     <CardUiQuad
@@ -122,29 +120,28 @@ function Home() {
                     />
                 </div>
 
-                <div className='home__row'>
-                    <h1>SLIDER TYPE 2 HERE</h1>
-                    {/* SliderWithScrollType2 */}
+                {/* <div className='home__row'>
+                    <ProductSliderWithScroll />
                 </div>
 
                 <div className='home__row'>
-                    <h1>SLIDER TYPE 2 HERE</h1>
-                    {/* SliderWithScrollType2 */}
+                    <ProductSliderWithScroll />
                 </div>
 
                 <div className='home__row'>
-                    <h1>SLIDER TYPE 2 HERE</h1>
-                    {/* SliderWithScrollType2 */}
+                    <ProductSliderWithScroll />
                 </div>
 
                 <div className='home__row'>
-                    <h1>SLIDER TYPE 2 HERE</h1>
-                    {/* SliderWithScrollType2 */}
+                    <ProductSliderWithScroll />
                 </div>
 
                 <div className='home__row'>
-                    <h1>SLIDER TYPE 2 HERE</h1>
-                    {/* SliderWithScrollType2 */}
+                    <ProductSliderWithScroll />
+                </div> */}
+
+                <div className='home__row'>
+                    {/* PersonalizedRecomendations */}
                 </div>
             </div>
         </div>
