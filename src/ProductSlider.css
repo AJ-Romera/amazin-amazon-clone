@@ -143,6 +143,7 @@
 /* disabled buttons */
 .rec.rec-arrow:disabled {
     opacity: 0.5;
+    background: transparent;
 }
 
 .rec.rec-arrow:disabled:hover {
