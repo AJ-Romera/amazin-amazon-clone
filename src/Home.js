@@ -5,7 +5,7 @@ import './Home.css';
 import CardUiFat from './CardUiFat';
 import CardUiQuad from './CardUiQuad';
 import CardUiPair from './CardUiPair';
-import ProductSliderWithScroll from './ProductSliderWithScroll';
+import ProductSlider from './ProductSlider';
 
 function Home() {
     return (
@@ -75,15 +75,31 @@ function Home() {
                 </div>
 
                 <div className='home__row'>
-                    <ProductSliderWithScroll />
+                    <ProductSlider
+                        title='Discover Amazin'
+                        titleLinkUrl='https://www.amazon.com/b?ie=UTF8&node=20338496011&ref=aistrustseemore&pf_rd_r=5ZR5B7Z486Y7VYY66PWF&pf_rd_p=8a5d31b2-ba07-4fea-99e1-c8469768d109'
+                        titleLinkText='Click to learn more'
+                        img1='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Projects/HelpPage/BubbleShoveler/English/Fuji_Bubble_8Languages_en_US_updated_1x._CB445837675_.png'
+                        img2='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/October/BubbleShoveler/AIS_Bubble_Currency_en_US_1X._CB451228332_.jpg'
+                        img3='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/October/BubbleShoveler/AIS_Bubble_SecurePayment_en_US_1X._CB451228335_.jpg'
+                        img4='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/October/BubbleShoveler/AIS_Bubble_ImportFees_en_US_1X._CB451228332_.jpg'
+                        img5='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/October/BubbleShoveler/AIS_Bubble_TrackPackage_en_US_1X._CB451228335_.jpg'
+                        img6='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/October/BubbleShoveler/AIS_Bubble_247CS_en_US_1X._CB451228332_.jpg'
+                        img7='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Projects/HelpPage/BubbleShoveler/English/Fuji_Bubble_8Languages_en_US_updated_1x._CB445837675_.png'
+                        img8='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/October/BubbleShoveler/AIS_Bubble_Currency_en_US_1X._CB451228332_.jpg'
+                        img9='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/October/BubbleShoveler/AIS_Bubble_SecurePayment_en_US_1X._CB451228335_.jpg'
+                        img10='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/October/BubbleShoveler/AIS_Bubble_ImportFees_en_US_1X._CB451228332_.jpg'
+                        img11='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/October/BubbleShoveler/AIS_Bubble_TrackPackage_en_US_1X._CB451228335_.jpg'
+                        img12='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/October/BubbleShoveler/AIS_Bubble_247CS_en_US_1X._CB451228332_.jpg'
+                    />
                 </div>
 
                 {/* <div className='home__row'>
-                    <ProductSliderWithScroll />
+                    <ProductSlider />
                 </div>
 
                 <div className='home__row'>
-                    <ProductSliderWithScroll />
+                    <ProductSlider />
                 </div> */}
 
                 <div className='home__row'>
@@ -121,23 +137,23 @@ function Home() {
                 </div>
 
                 {/* <div className='home__row'>
-                    <ProductSliderWithScroll />
+                    <ProductSlider />
                 </div>
 
                 <div className='home__row'>
-                    <ProductSliderWithScroll />
+                    <ProductSlider />
                 </div>
 
                 <div className='home__row'>
-                    <ProductSliderWithScroll />
+                    <ProductSlider />
                 </div>
 
                 <div className='home__row'>
-                    <ProductSliderWithScroll />
+                    <ProductSlider />
                 </div>
 
                 <div className='home__row'>
-                    <ProductSliderWithScroll />
+                    <ProductSlider />
                 </div> */}
 
                 <div className='home__row'>
