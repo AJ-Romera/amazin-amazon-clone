@@ -91,6 +91,18 @@ function Home() {
                         img10='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/October/BubbleShoveler/AIS_Bubble_ImportFees_en_US_1X._CB451228332_.jpg'
                         img11='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/October/BubbleShoveler/AIS_Bubble_TrackPackage_en_US_1X._CB451228335_.jpg'
                         img12='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/October/BubbleShoveler/AIS_Bubble_247CS_en_US_1X._CB451228332_.jpg'
+                        link1='https://www.google.com'
+                        link2='https://www.google.com'
+                        link3='https://www.google.com'
+                        link4='https://www.google.com'
+                        link5='https://www.google.com'
+                        link6='https://www.google.com'
+                        link7='https://www.google.com'
+                        link8='https://www.google.com'
+                        link9='https://www.google.com'
+                        link10='https://www.google.com'
+                        link11='https://www.google.com'
+                        link12='https://www.google.com'
                     />
                 </div>
 
