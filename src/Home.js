@@ -204,25 +204,165 @@ function Home() {
                     />
                 </div>
 
-                {/* <div className='home__row'>
-                    <ProductSlider />
+                <div className='home__row'>
+                    <ProductSlider
+                        title='Must have Wireless products'
+                        titleLinkUrl='#'
+                        titleLinkText='Shop now'
+                        img1='https://m.media-amazon.com/images/I/41PYkNWSrAL._AC_SY200_.jpg'
+                        img2='https://m.media-amazon.com/images/I/41TEawIMRfL._AC_SY200_.jpg'
+                        img3='https://m.media-amazon.com/images/I/310bMKQjT5L._AC_SY200_.jpg'
+                        img4='https://m.media-amazon.com/images/I/31R4prWMk0L._AC_SY200_.jpg'
+                        img5='https://m.media-amazon.com/images/I/41WOalZ1N5L._AC_SY200_.jpg'
+                        img6='https://m.media-amazon.com/images/I/51EXcNKQgoL._AC_SY200_.jpg'
+                        img7='https://m.media-amazon.com/images/I/413BYCci6NL._AC_SY200_.jpg'
+                        img8='https://m.media-amazon.com/images/I/31QZt3z85mL._AC_SY200_.jpg'
+                        img9='https://m.media-amazon.com/images/I/4178UF1W9NL._AC_SY200_.jpg'
+                        img10='https://m.media-amazon.com/images/I/31YGiracCNL._AC_SY200_.jpg'
+                        img11='https://m.media-amazon.com/images/I/41RzUZ7NUWL._AC_SY200_.jpg'
+                        img12='https://m.media-amazon.com/images/I/41Lv8P3IcVL._AC_SY200_.jpg'
+                        link1='#'
+                        link2='#'
+                        link3='#'
+                        link4='#'
+                        link5='#'
+                        link6='#'
+                        link7='#'
+                        link8='#'
+                        link9='#'
+                        link10='#'
+                        link11='#'
+                        link12='#'
+                    />
                 </div>
 
                 <div className='home__row'>
-                    <ProductSlider />
+                    <ProductSlider
+                        title='Stuffed Animals & Toys under $10'
+                        titleLinkUrl='#'
+                        titleLinkText='Shop now'
+                        img1='https://m.media-amazon.com/images/I/512wF3yP3FL._AC_SY200_.jpg'
+                        img2='https://m.media-amazon.com/images/I/41-7l-po+EL._AC_SY200_.jpg'
+                        img3='https://m.media-amazon.com/images/I/41XCql8cjsL._AC_SY200_.jpg'
+                        img4='https://m.media-amazon.com/images/I/41IrQCmYA+L._AC_SY200_.jpg'
+                        img5='https://m.media-amazon.com/images/I/41+7ZmvKlUL._AC_SY200_.jpg'
+                        img6='https://m.media-amazon.com/images/I/51wO0e5gXXL._AC_SY200_.jpg'
+                        img7='https://m.media-amazon.com/images/I/41VFhVMh8uL._AC_SY200_.jpg'
+                        img8='https://m.media-amazon.com/images/I/31y8TMTwRIL._AC_SY200_.jpg'
+                        img9='https://m.media-amazon.com/images/I/410IWzsZhvL._AC_SY200_.jpg'
+                        img10='https://m.media-amazon.com/images/I/51AaJPOD4qL._AC_SY200_.jpg'
+                        img11='https://m.media-amazon.com/images/I/41j+wOpGjEL._AC_SY200_.jpg'
+                        img12='https://m.media-amazon.com/images/I/41ZmuuKMtmL._AC_SY200_.jpg'
+                        link1='#'
+                        link2='#'
+                        link3='#'
+                        link4='#'
+                        link5='#'
+                        link6='#'
+                        link7='#'
+                        link8='#'
+                        link9='#'
+                        link10='#'
+                        link11='#'
+                        link12='#'
+                    />
                 </div>
 
                 <div className='home__row'>
-                    <ProductSlider />
+                    <ProductSlider
+                        title='Best Sellers in Baby'
+                        titleLinkUrl='#'
+                        titleLinkText='Shop now'
+                        img1='https://m.media-amazon.com/images/I/41RGrXACv8L._AC_SY200_.jpg'
+                        img2='https://m.media-amazon.com/images/I/41+tceVy64L._AC_SY200_.jpg'
+                        img3='https://m.media-amazon.com/images/I/31WLusUnqkL._AC_SY200_.jpg'
+                        img4='https://m.media-amazon.com/images/I/31BrpSyGV3L._AC_SY200_.jpg'
+                        img5='https://m.media-amazon.com/images/I/51G6gwpEvdL._AC_SY200_.jpg'
+                        img6='https://m.media-amazon.com/images/I/51roA9wBHJL._AC_SY200_.jpg'
+                        img7='https://m.media-amazon.com/images/I/41b5I86kihL._AC_SY200_.jpg'
+                        img8='https://m.media-amazon.com/images/I/51mNDKg0DeL._AC_SY200_.jpg'
+                        img9='https://m.media-amazon.com/images/I/41bEkkjIKOL._AC_SY200_.jpg'
+                        img10='https://m.media-amazon.com/images/I/41g-gVqoCaL._AC_SY200_.jpg'
+                        img11='https://m.media-amazon.com/images/I/31NlEBHSgoL._AC_SY200_.jpg'
+                        img12='https://m.media-amazon.com/images/I/310cWWGXoBL._AC_SY200_.jpg'
+                        link1='#'
+                        link2='#'
+                        link3='#'
+                        link4='#'
+                        link5='#'
+                        link6='#'
+                        link7='#'
+                        link8='#'
+                        link9='#'
+                        link10='#'
+                        link11='#'
+                        link12='#'
+                    />
                 </div>
 
                 <div className='home__row'>
-                    <ProductSlider />
+                    <ProductSlider
+                        title='Our favorite Toys'
+                        titleLinkUrl='#'
+                        titleLinkText='Shop now'
+                        img1='https://m.media-amazon.com/images/I/51d5cqa2fVL._AC_SY200_.jpg'
+                        img2='https://m.media-amazon.com/images/I/51-wsV9iCqL._AC_SY200_.jpg'
+                        img3='https://m.media-amazon.com/images/I/51aIDYrc84L._AC_SY200_.jpg'
+                        img4='https://m.media-amazon.com/images/I/51LmVkH0CkL._AC_SY200_.jpg'
+                        img5='https://m.media-amazon.com/images/I/519cveTryBL._AC_SY200_.jpg'
+                        img6='https://m.media-amazon.com/images/I/51g0tsYZE-L._AC_SY200_.jpg'
+                        img7='https://m.media-amazon.com/images/I/41-UBiLdXbL._AC_SY200_.jpg'
+                        img8='https://m.media-amazon.com/images/I/51HNS6E0kLL._AC_SY200_.jpg'
+                        img9='https://m.media-amazon.com/images/I/41ruvOU1PcL._AC_SY200_.jpg'
+                        img10='https://m.media-amazon.com/images/I/41MYebOo+lL._AC_SY200_.jpg'
+                        img11='https://m.media-amazon.com/images/I/515i-dyW3rL._AC_SY200_.jpg'
+                        img12='https://m.media-amazon.com/images/I/41vcxpLL8aL._AC_SY200_.jpg'
+                        link1='#'
+                        link2='#'
+                        link3='#'
+                        link4='#'
+                        link5='#'
+                        link6='#'
+                        link7='#'
+                        link8='#'
+                        link9='#'
+                        link10='#'
+                        link11='#'
+                        link12='#'
+                    />
                 </div>
 
                 <div className='home__row'>
-                    <ProductSlider />
-                </div> */}
+                    <ProductSlider
+                        title='Home Décor Under $20'
+                        titleLinkUrl='#'
+                        titleLinkText='Shop now'
+                        img1='https://m.media-amazon.com/images/I/21dvL73e4LL._AC_SY200_.jpg'
+                        img2='https://m.media-amazon.com/images/I/411lLGHkbYL._AC_SY200_.jpg'
+                        img3='https://m.media-amazon.com/images/I/41gT9mzRM8L._AC_SY200_.jpg'
+                        img4='https://m.media-amazon.com/images/I/2106xsNjy4L._AC_SY200_.jpg'
+                        img5='https://m.media-amazon.com/images/I/41Qn+zjTjrL._AC_SY200_.jpg'
+                        img6='https://m.media-amazon.com/images/I/5195MBwUjdL._AC_SY200_.jpg'
+                        img7='https://m.media-amazon.com/images/I/41CHGomCxrL._AC_SY200_.jpg'
+                        img8='https://m.media-amazon.com/images/I/21OX--nCrrL._AC_SY200_.jpg'
+                        img9='https://m.media-amazon.com/images/I/31hjtrnA6WL._AC_SY200_.jpg'
+                        img10='https://m.media-amazon.com/images/I/51fmvGTHIgL._AC_SY200_.jpg'
+                        img11='https://m.media-amazon.com/images/I/51MxE9U3lCL._AC_SY200_.jpg'
+                        img12='https://m.media-amazon.com/images/I/51l3cO7zsFL._AC_SY200_.jpg'
+                        link1='#'
+                        link2='#'
+                        link3='#'
+                        link4='#'
+                        link5='#'
+                        link6='#'
+                        link7='#'
+                        link8='#'
+                        link9='#'
+                        link10='#'
+                        link11='#'
+                        link12='#'
+                    />
+                </div>
 
                 <div className='home__row'>
                     {/* PersonalizedRecomendations */}
