@@ -3,12 +3,12 @@ import Carousel from 'react-elastic-carousel';
 import Item from './Item';
 import './ProductSlider.css';
 
-/* const breakPoints = [
+const breakPoints = [
     { width: 1, itemsToShow: 1, itemsToScroll: 1 },
-    { width: 550, itemsToShow: 2 },
-    { width: 768, itemsToShow: 3 },
-    { width: 1200, itemsToShow: 4 },
-]; */
+    { width: 550, itemsToShow: 2, itemsToScroll: 2 },
+    { width: 768, itemsToShow: 3, itemsToScroll: 3 },
+    { width: 1300, itemsToShow: 6, itemsToScroll: 6 },
+];
 
 function ProductSlider({
     title,
@@ -52,7 +52,7 @@ function ProductSlider({
                     <Carousel
                         itemsToScroll={6}
                         itemsToShow={6}
-                        /* breakPoints={breakPoints} */
+                        breakPoints={breakPoints}
                         pagination={false}
                         showArrows={true}
                         enableSwipe={true}
