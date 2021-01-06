@@ -61,6 +61,34 @@
     overflow: hidden;
 }
 
+.cukhLH {
+    /* add this if you want the items scroll
+    overflow-y: hidden !important;
+    overflow-x: scroll !important; */
+    margin: 0 !important;
+}
+
+.rec-carousel {
+    height: 220px;
+}
+
+.rec-item-wrapper {
+    min-width: 145px;
+    max-width: 270px;
+    height: 220px;
+}
+
+.sc-gsTCUz {
+    width: auto !important;
+}
+
+.productSlider__carouselSection img {
+    width: auto;
+    height: auto;
+    max-width: 270px;
+    max-height: 200px;
+}
+
 .rec.rec-arrow {
     font-weight: bold;
 }

@@ -77,7 +77,7 @@ function Home() {
                 <div className='home__row'>
                     <ProductSlider
                         title='Discover Amazin'
-                        titleLinkUrl='https://www.amazon.com/b?ie=UTF8&node=20338496011&ref=aistrustseemore&pf_rd_r=5ZR5B7Z486Y7VYY66PWF&pf_rd_p=8a5d31b2-ba07-4fea-99e1-c8469768d109'
+                        titleLinkUrl='#'
                         titleLinkText='Click to learn more'
                         img1='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Projects/HelpPage/BubbleShoveler/English/Fuji_Bubble_8Languages_en_US_updated_1x._CB445837675_.png'
                         img2='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/October/BubbleShoveler/AIS_Bubble_Currency_en_US_1X._CB451228332_.jpg'
@@ -91,28 +91,84 @@ function Home() {
                         img10='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/October/BubbleShoveler/AIS_Bubble_ImportFees_en_US_1X._CB451228332_.jpg'
                         img11='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/October/BubbleShoveler/AIS_Bubble_TrackPackage_en_US_1X._CB451228335_.jpg'
                         img12='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/October/BubbleShoveler/AIS_Bubble_247CS_en_US_1X._CB451228332_.jpg'
-                        link1='https://www.google.com'
-                        link2='https://www.google.com'
-                        link3='https://www.google.com'
-                        link4='https://www.google.com'
-                        link5='https://www.google.com'
-                        link6='https://www.google.com'
-                        link7='https://www.google.com'
-                        link8='https://www.google.com'
-                        link9='https://www.google.com'
-                        link10='https://www.google.com'
-                        link11='https://www.google.com'
-                        link12='https://www.google.com'
+                        link1='#'
+                        link2='#'
+                        link3='#'
+                        link4='#'
+                        link5='#'
+                        link6='#'
+                        link7='#'
+                        link8='#'
+                        link9='#'
+                        link10='#'
+                        link11='#'
+                        link12='#'
                     />
                 </div>
 
-                {/* <div className='home__row'>
-                    <ProductSlider />
+                <div className='home__row'>
+                    <ProductSlider
+                        title='Amazin Top Sellers'
+                        titleLinkUrl='#'
+                        titleLinkText='Shop now'
+                        img1='https://m.media-amazon.com/images/I/41ffko0T3kL._AC_SY200_.jpg'
+                        img2='https://m.media-amazon.com/images/I/41KL+iXUXCL._AC_SY200_.jpg'
+                        img3='https://m.media-amazon.com/images/I/51G8LfsNZzL._AC_SY200_.jpg'
+                        img4='https://m.media-amazon.com/images/I/31i3tpuXxxL._AC_SY200_.jpg'
+                        img5='https://m.media-amazon.com/images/I/41yavwjp-8L._AC_SY200_.jpg'
+                        img6='https://m.media-amazon.com/images/I/41XlyY4EvQL._AC_SY200_.jpg'
+                        img7='https://m.media-amazon.com/images/I/41W5-duvLkL._AC_SY200_.jpg'
+                        img8='https://m.media-amazon.com/images/I/41g0C69FbvL._AC_SY200_.jpg'
+                        img9='https://m.media-amazon.com/images/I/41tQ9dniedL._AC_SY200_.jpg'
+                        img10='https://m.media-amazon.com/images/I/41bCxnHksnL._AC_SY200_.jpg'
+                        img11='https://m.media-amazon.com/images/I/41GGPRqTZtL._AC_SY200_.jpg'
+                        img12='https://m.media-amazon.com/images/I/41Pf-FgUROL._AC_SY200_.jpg'
+                        link1='#'
+                        link2='#'
+                        link3='#'
+                        link4='#'
+                        link5='#'
+                        link6='#'
+                        link7='#'
+                        link8='#'
+                        link9='#'
+                        link10='#'
+                        link11='#'
+                        link12='#'
+                    />
                 </div>
 
                 <div className='home__row'>
-                    <ProductSlider />
-                </div> */}
+                    <ProductSlider
+                        title='Gifts in Video Games under $30'
+                        titleLinkUrl='#'
+                        titleLinkText='Shop now'
+                        img1='https://m.media-amazon.com/images/I/51NV8Uil7wL._AC_SY200_.jpg'
+                        img2='https://m.media-amazon.com/images/I/41QztBTooxL._AC_SY200_.jpg'
+                        img3='https://m.media-amazon.com/images/I/41BP6N0cDVL._AC_SY200_.jpg'
+                        img4='https://m.media-amazon.com/images/I/51HzG7dwAHL._AC_SY200_.jpg'
+                        img5='https://m.media-amazon.com/images/I/319KAiGobEL._AC_SY200_.jpg'
+                        img6='https://m.media-amazon.com/images/I/41Ww3zikowL._AC_SY200_.jpg'
+                        img7='https://m.media-amazon.com/images/I/41sFQT0I4aL._AC_SY200_.jpg'
+                        img8='https://m.media-amazon.com/images/I/51mZVG8qQZL._AC_SY200_.jpg'
+                        img9='https://m.media-amazon.com/images/I/41VbT96pAWL._AC_SY200_.jpg'
+                        img10='https://m.media-amazon.com/images/I/41PDAAtkyGL._AC_SY200_.jpg'
+                        img11='https://m.media-amazon.com/images/I/51vOyKGea+L._AC_SY200_.jpg'
+                        img12='https://m.media-amazon.com/images/I/31aYZs3ij5L._AC_SY200_.jpg'
+                        link1='#'
+                        link2='#'
+                        link3='#'
+                        link4='#'
+                        link5='#'
+                        link6='#'
+                        link7='#'
+                        link8='#'
+                        link9='#'
+                        link10='#'
+                        link11='#'
+                        link12='#'
+                    />
+                </div>
 
                 <div className='home__row'>
                     <CardUiQuad
