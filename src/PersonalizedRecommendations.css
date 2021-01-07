@@ -1,0 +1,190 @@
+.personalizedRecommendations {
+    width: 100%;
+    min-width: 290px;
+    margin-top: 10px;
+}
+
+.personalizedRecommendations__container {
+    background: #fff;
+    padding: 10px 20px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+.personalizedRecommendations__titleSection {
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 25px;
+    margin: 10px 0 0;
+}
+
+.personalizedRecommendations__titleSection h2 {
+    display: flex;
+    width: auto;
+    font-size: 21px;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 700;
+    padding-bottom: 0;
+}
+
+.personalizedRecommendations__titleSection h2 span {
+    color: #444 !important;
+}
+
+.personalizedRecommendations__titleSection span {
+    display: flex;
+    width: auto;
+    text-align: right;
+    font-size: 14px;
+    align-items: center;
+    padding-left: 15px;
+    line-height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.personalizedRecommendations__titleSection span a {
+    text-decoration: none;
+    color: #007185;
+}
+
+.personalizedRecommendations__carouselSection {
+    width: 100%;
+    margin: 0 0 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cukhLH {
+    margin: 0 !important;
+}
+
+.rec-carousel {
+    height: 220px;
+}
+
+.rec-item-wrapper {
+    min-width: 145px;
+    max-width: 270px;
+    height: 220px;
+}
+
+.sc-gsTCUz {
+    width: auto !important;
+}
+
+.personalizedRecommendations__carouselSection img {
+    width: auto;
+    height: auto;
+    max-width: 270px;
+    max-height: 200px;
+}
+
+.rec.rec-arrow {
+    display: none;
+    font-weight: bold;
+}
+
+.rec.rec-arrow-left {
+    position: absolute;
+    left: 5px;
+    top: 55px;
+    border-radius: 0 3px 3px 0;
+    width: 45px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 1px 3px #888;
+    z-index: 1;
+}
+
+.rec.rec-arrow-right {
+    position: absolute;
+    right: 5px;
+    top: 55px;
+    border-radius: 3px 0 0 3px;
+    width: 45px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 1px 3px #888;
+    z-index: 1;
+}
+
+/* special arrow hover and focus */
+
+.lgksPe:hover:enabled {
+    color: #888 !important;
+    background-color: rgb(247, 247, 247) !important;
+    box-shadow: 0 0 2px 0 #333 !important;
+}
+
+.lgksPe:focus:enabled {
+    color: #888 !important;
+    background-color: rgb(250, 250, 250) !important;
+    box-shadow: 0 0 2px 0 #333 !important;
+}
+
+/* buttons on hover */
+.rec.rec-arrow:hover {
+    display: none;
+    color: #333 !important;
+}
+
+.rec.rec-arrow-left:hover {
+    position: absolute;
+    left: 5px;
+    top: 55px;
+    border-radius: 0 3px 3px 0;
+    width: 45px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 1px 3px #888;
+    z-index: 1;
+}
+
+.rec.rec-arrow-right:hover {
+    position: absolute;
+    right: 5px;
+    top: 55px;
+    border-radius: 3px 0 0 3px;
+    width: 45px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 1px 3px #888;
+    z-index: 1;
+}
+
+/* disabled buttons */
+.rec.rec-arrow:disabled {
+    display: none;
+    opacity: 0.5;
+    background: transparent;
+    cursor: not-allowed;
+}
+
+.rec.rec-arrow:disabled:hover {
+    opacity: 0.4;
+    color: rgb(175, 175, 175) !important;
+}
+
+/* add custom outline on focused items */
+.rec-carousel-item:focus {
+    outline: 1px solid black;
+    box-shadow: inset 0 0 1px 1px lightgrey;
+}
+
+/* left and right buttons shows up on carousel hover */
+
+.rec .rec-carousel:hover button {
+    display: inline;
+}

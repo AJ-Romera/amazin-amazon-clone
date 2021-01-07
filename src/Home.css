@@ -13,6 +13,11 @@
     margin-right: 5px;
 }
 
+.home__fullWidthRow {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .home__image {
     /* In the real amazon they use a carrousel instead of an image */
     width: 100%;

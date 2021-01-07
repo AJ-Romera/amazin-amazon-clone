@@ -6,6 +6,7 @@ import CardUiFat from './CardUiFat';
 import CardUiQuad from './CardUiQuad';
 import CardUiPair from './CardUiPair';
 import ProductSlider from './ProductSlider';
+import PersonalizedRecommendations from './PersonalizedRecommendations';
 
 function Home() {
     return (
@@ -364,8 +365,36 @@ function Home() {
                     />
                 </div>
 
-                <div className='home__row'>
-                    {/* PersonalizedRecomendations */}
+                <div className='home__row home__fullWidthRow'>
+                    <PersonalizedRecommendations
+                        title='Inspired by your browsing history'
+                        titleLinkUrl='#'
+                        titleLinkText='Sign in to se personalized recommendations'
+                        img1='https://images-na.ssl-images-amazon.com/images/I/71DPRgRVKLL._AC_SY220_.jpg'
+                        img2='https://images-na.ssl-images-amazon.com/images/I/61Q%2B2i8UM5L._AC_SY220_.jpg'
+                        img3='https://images-na.ssl-images-amazon.com/images/I/71iNwni9TsL._AC_SY220_.jpg'
+                        img4='https://images-na.ssl-images-amazon.com/images/I/81vf4znYbaL._AC_SY220_.jpg'
+                        img5='https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_SY220_.jpg'
+                        img6='https://images-na.ssl-images-amazon.com/images/I/51e2N3YuvWL._AC_SY220_.jpg'
+                        img7='https://images-na.ssl-images-amazon.com/images/I/71s1LRpaprL._AC_SY220_.jpg'
+                        img8='https://images-na.ssl-images-amazon.com/images/I/81sKYT9%2Bf3L._AC_SY220_.jpg'
+                        img9='https://images-na.ssl-images-amazon.com/images/I/61Ebwh4O4fL._AC_SY220_.jpg'
+                        img10='https://images-na.ssl-images-amazon.com/images/I/614GFJl2i5L._AC_SY220_.jpg'
+                        img11='https://images-na.ssl-images-amazon.com/images/I/81AbJXWCxXL._AC_SY220_.jpg'
+                        img12='https://images-na.ssl-images-amazon.com/images/I/81fstJkUlaL._AC_SY220_.jpg'
+                        link1='#'
+                        link2='#'
+                        link3='#'
+                        link4='#'
+                        link5='#'
+                        link6='#'
+                        link7='#'
+                        link8='#'
+                        link9='#'
+                        link10='#'
+                        link11='#'
+                        link12='#'
+                    />
                 </div>
             </div>
         </div>
