@@ -1,7 +1,7 @@
 .personalizedRecommendations {
     width: 100%;
     min-width: 290px;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 .personalizedRecommendations__container {
@@ -11,15 +11,67 @@
     box-sizing: border-box;
 }
 
-.personalizedRecommendations__titleSection {
+.personalizedRecommendations__emptySpaceWithDivideLine {
+    padding-top: 10px;
+    margin: 12px -20px;
+    border-bottom: 1px solid #eaeded;
+}
+
+/* .personalizedRecommendations__titleSection {
     display: flex;
     white-space: nowrap;
     overflow: hidden;
     margin-bottom: 25px;
     margin: 10px 0 0;
+} */
+
+.personalizedRecommendations__titleAndButtonSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.personalizedRecommendations__titleSection h2 {
+.personalizedRecommendations__header {
+    margin-bottom: 12px;
+    padding: 0 20px;
+}
+
+.personalizedRecommendations__header h2 {
+    font-size: 21px;
+    font-weight: 400;
+    color: #444;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+
+.personalizedRecommendations__body {
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+}
+
+.personalizedRecommendations__body a button {
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 30px;
+    width: 100%;
+    padding: 0 10px 0 11px;
+    font-size: 13px;
+    line-height: 29px;
+    background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+    border-color: #a88734 #9c7e31 #846a29;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #111;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+    overflow: hidden;
+}
+
+/* .personalizedRecommendations__titleSection h2 {
     display: flex;
     width: auto;
     font-size: 21px;
@@ -49,7 +101,7 @@
 .personalizedRecommendations__titleSection span a {
     text-decoration: none;
     color: #007185;
-}
+} */
 
 .personalizedRecommendations__carouselSection {
     width: 100%;

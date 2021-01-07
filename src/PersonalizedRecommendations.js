@@ -12,8 +12,8 @@ const breakPoints = [
 
 function PersonalizedRecommendations({
     title,
-    titleLinkUrl,
-    titleLinkText,
+    buttonLinkUrl,
+    buttonLinkText,
     img1,
     img2,
     img3,
@@ -42,11 +42,18 @@ function PersonalizedRecommendations({
     return (
         <div className='personalizedRecommendations'>
             <div className='personalizedRecommendations__container'>
-                <div className='personalizedRecommendations__titleSection'>
-                    <h2>{title}</h2>
-                    <span>
-                        <a href={titleLinkUrl}>{titleLinkText}</a>
-                    </span>
+                <div className='personalizedRecommendations__emptySpaceWithDivideLine'>
+                    <br />
+                </div>
+                <div className='personalizedRecommendations__titleAndButtonSection'>
+                    <div className='personalizedRecommendations__header'>
+                        <h2>{title}</h2>
+                    </div>
+                    <div className='personalizedRecommendations__body'>
+                        <a href={buttonLinkUrl}>
+                            <button>{buttonLinkText}</button>
+                        </a>
+                    </div>
                 </div>
                 <div className='personalizedRecommendations__carouselSection'>
                     <Carousel

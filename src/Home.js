@@ -368,8 +368,8 @@ function Home() {
                 <div className='home__row home__fullWidthRow'>
                     <PersonalizedRecommendations
                         title='Inspired by your browsing history'
-                        titleLinkUrl='#'
-                        titleLinkText='Sign in to se personalized recommendations'
+                        buttonLinkUrl='#'
+                        buttonLinkText='Sign in to se personalized recommendations'
                         img1='https://images-na.ssl-images-amazon.com/images/I/71DPRgRVKLL._AC_SY220_.jpg'
                         img2='https://images-na.ssl-images-amazon.com/images/I/61Q%2B2i8UM5L._AC_SY220_.jpg'
                         img3='https://images-na.ssl-images-amazon.com/images/I/71iNwni9TsL._AC_SY220_.jpg'
