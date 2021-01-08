@@ -1,6 +1,31 @@
-/* 
-footer__navFooter
+.footer__navFooter {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-color: #232f3e;
+    min-width: 1000px;
+    /* position: relative; */
+}
 
+.footer__navBackToTop {
+    margin-bottom: 40px;
+    background-color: #37475a;
+}
+
+.footer__navBackToTopText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+    line-height: 19px;
+    font-size: 13px;
+    margin-bottom: 40px;
+    background-color: #37475a;
+}
+
+/* 
 .home__row {
     display: flex;
     z-index: 1;

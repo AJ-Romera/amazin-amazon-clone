@@ -6,13 +6,15 @@ function Footer() {
         <div className='footer'>
             <div className='footer__navFooter'>
                 <a href='#nav-top' className='footer__navBackToTop'>
-                    Come here
+                    <span className='footer__navBackToTopText'>
+                        Back to top
+                    </span>
                 </a>
-                <div className='footer__navFooterVerticalColumn'></div>
-                <div className='footer__navFooterEmptySpaceLine'></div>
-                <div className='footer__langCurrencyAndCountry'></div>
-                <div className='footer__moreOnAmazin'></div>
-                <div className='footer__navFooterCopyright'></div>
+                <div className='footer__navFooterVerticalColumn'>Something</div>
+                <div className='footer__navFooterEmptySpaceLine'>Something</div>
+                <div className='footer__langCurrencyAndCountry'>Something</div>
+                <div className='footer__moreOnAmazin'>Something</div>
+                <div className='footer__navFooterCopyright'>Something</div>
             </div>
         </div>
     );
