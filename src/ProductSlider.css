@@ -26,10 +26,10 @@
     display: flex;
     width: auto;
     font-size: 21px;
+    font-weight: 500;
     line-height: 1.5;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-weight: 700;
     padding-bottom: 0;
 }
 
