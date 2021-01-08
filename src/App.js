@@ -5,6 +5,7 @@ import './App.css';
 import Header from './Header';
 import SubHeader from './SubHeader';
 import Home from './Home';
+import Footer from './Footer';
 
 function App() {
     return (
@@ -12,7 +13,7 @@ function App() {
             <Header />
             <SubHeader />
             <Home />
-            {/* Footer */}
+            <Footer />
         </div>
     );
 }
