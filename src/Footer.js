@@ -57,7 +57,32 @@ function Footer() {
                     </div>
                 </div>
                 <div className='footer__navFooterEmptySpaceLine'></div>
-                <div className='footer__langCurrencyAndCountry'>Something</div>
+                <div className='footer__langCurrencyAndCountry'>
+                    <span>
+                        <a href='/ref=footer_logo'>
+                            <div className='footer__navFooterLogo'></div>
+                        </a>
+                    </span>
+                    <span>
+                        <div className='footer__optionsContainer'>
+                            <a href='#'>
+                                <div className='footer__globeIcon'></div>
+                                <span>English</span>
+                                <span className='footer__upDownArrow'></span>
+                            </a>
+                            <a href='#'>
+                                <span className='footer__currencySymbol'>
+                                    $
+                                </span>
+                                <span>USD - U.S. Dollar</span>
+                            </a>
+                            <a href='#'>
+                                <span className='footer__flag'></span>
+                                <span>United States</span>
+                            </a>
+                        </div>
+                    </span>
+                </div>
                 <div className='footer__moreOnAmazin'>Something</div>
                 <div className='footer__navFooterCopyright'>Something</div>
             </div>

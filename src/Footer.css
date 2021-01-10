@@ -4,7 +4,6 @@
     padding-bottom: 0;
     background-color: #232f3e;
     min-width: 1000px;
-    /* position: relative; */
 }
 
 .footer__navBackToTop {
@@ -65,4 +64,83 @@
 .footer__navFooterEmptySpaceLine {
     border-top: 1px solid #3a4553;
     margin-top: 40px;
+}
+
+.footer__langCurrencyAndCountry {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    margin: 20px auto;
+    text-align: center;
+    max-width: 1000px;
+    color: #ddd;
+    line-height: 18px;
+    white-space: nowrap;
+}
+
+.footer__langCurrencyAndCountry > span {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.footer__navFooterLogo {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+    background-position: -10px -90px;
+    background-repeat: repeat-x;
+    width: 76px;
+    height: 23px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.footer__optionsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 18px auto 0; */
+    margin-left: 70px;
+}
+
+.footer__optionsContainer a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #848688;
+    border-radius: 3px;
+    padding: 6px 18px 6px 8px;
+    margin-right: 6px;
+    color: #ddd;
+}
+
+.footer__globeIcon {
+    background: url(https://m.media-amazon.com/images/S/sash/jYdmIJv-COIU_a2.png);
+    background-position: -77px -24px;
+    width: 14px;
+    height: 14px;
+    margin: 3px 10px 3px 0;
+}
+
+.footer__upDownArrow {
+    background: url(https://m.media-amazon.com/images/S/sash/jYdmIJv-COIU_a2.png);
+    width: 12px;
+    height: 12px;
+    background-position: -77px -80px;
+    margin: 3px 0 3px 10px;
+}
+
+.footer__currencySymbol {
+    color: #fff;
+    font-size: 14px;
+    margin: 2px 10px 0px 0;
+}
+
+.footer__flag {
+    width: 18px;
+    height: 12px;
+    margin: 4px 10px 4px 0;
+    background-image: url(https://m.media-amazon.com/images/S/sash/jYdmIJv-COIU_a2.png);
+    background-position: -54px -108px;
 }
