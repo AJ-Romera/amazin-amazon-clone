@@ -56,7 +56,7 @@ function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className='footer__navFooterEmptySpaceLine'>Something</div>
+                <div className='footer__navFooterEmptySpaceLine'></div>
                 <div className='footer__langCurrencyAndCountry'>Something</div>
                 <div className='footer__moreOnAmazin'>Something</div>
                 <div className='footer__navFooterCopyright'>Something</div>
