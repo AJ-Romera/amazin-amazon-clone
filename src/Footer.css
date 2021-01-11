@@ -144,3 +144,41 @@
     background-image: url(https://m.media-amazon.com/images/S/sash/jYdmIJv-COIU_a2.png);
     background-position: -54px -108px;
 }
+
+.footer__moreOnAmazin {
+    font-size: 12px;
+    color: #ddd;
+    line-height: 18px;
+    white-space: nowrap;
+    background-color: #131a22;
+    padding: 30px 0;
+    margin: 30px 0 0;
+}
+
+.footer__moreOnAmaizinContainer {
+    max-width: 1000px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* grid-template-rows: repeat(7, 100px); */
+    gap: 15px 40px;
+}
+
+.footer__cell {
+    font-size: 11px !important;
+    padding: 0 12px;
+    text-align: left;
+    line-height: 12px;
+}
+
+.footer__aTitle {
+    color: #ddd;
+    white-space: normal;
+}
+
+.footer__aDescText {
+    font-size: 10px;
+    line-height: 11px;
+    color: #999;
+    white-space: normal;
+}

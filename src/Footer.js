@@ -83,7 +83,230 @@ function Footer() {
                         </div>
                     </span>
                 </div>
-                <div className='footer__moreOnAmazin'>Something</div>
+                <div className='footer__moreOnAmazin'>
+                    <div className='footer__moreOnAmaizinContainer'>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                        <div className='footer__cell'>
+                            <a href='#' className='footer__aTitle'>
+                                Amazin Music
+                                <br />
+                                <span className='footer__aDescText'>
+                                    Stream millions
+                                    <br />
+                                    of songs
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <div className='footer__navFooterCopyright'>Something</div>
             </div>
         </div>
