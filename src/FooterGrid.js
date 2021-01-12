@@ -1,18 +1,14 @@
 import React from 'react';
 import './FooterGrid.css';
 
-function FooterGrid() {
+function FooterGrid({ aHref, title, desc }) {
     return (
         <div className='footerGrid'>
             <div className='footer__cell'>
-                <a href='#' className='footer__aTitle'>
-                    Amazin Music
+                <a href={aHref} className='footer__aTitle'>
+                    {title}
                     <br />
-                    <span className='footer__aDescText'>
-                        Stream millions
-                        <br />
-                        of songs
-                    </span>
+                    <span className='footer__aDescText'>{desc}</span>
                 </a>
             </div>
         </div>

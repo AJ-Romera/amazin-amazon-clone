@@ -1,5 +1,7 @@
 import React from 'react';
 import './Footer.css';
+
+/* Components */
 import FooterColumns from './FooterColumns';
 import FooterGrid from './FooterGrid';
 
@@ -123,7 +125,181 @@ function Footer() {
 
                 <div className='footer__moreOnAmazin'>
                     <div className='footer__moreOnAmaizinContainer'>
-                        <FooterGrid />
+                        <FooterGrid
+                            aHref='#'
+                            title='Amazin Music'
+                            desc='Stream millions of songs'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Amazin Advertising'
+                            desc='Find, attract, and engage customers'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Amazin Drive'
+                            desc='Cloud storage from Amazin'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='6pm'
+                            desc='Score deals on fashion brands'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='AbeBooks'
+                            desc='Books, art & collectibles'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='ACX'
+                            desc='Audiobook Publishing Made Easy'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Alexo'
+                            desc='Actionable Analytics for the Web'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Sell on Amazin'
+                            desc='Start a Selling Account'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Amazin Business'
+                            desc='Everything For Your Business'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='AmazinGlobal'
+                            desc='Ship Orders Internationally'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Home Services'
+                            desc='Experienced Pros Happiness Guarantee'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Amazin Ignite'
+                            desc='Sell your original Digital Educational Resources'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Amazin Rapids'
+                            desc='Fun stories for kids on the go'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Amazin Web Services'
+                            desc='Scalable Cloud Computing Services'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Audible'
+                            desc='Listen to Books & Original Audio Performances'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Book Depository'
+                            desc='Books With Free Delivery Worldwide'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Box Office Mojo'
+                            desc='Find Movie Box Office Data'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='ComiXology'
+                            desc='Thousands of Digital Comics'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='DPReview'
+                            desc='Digital Photography'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='East Dane'
+                            desc='Designer Men´s Fashion'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Fabric'
+                            desc='Sewing, Quilting & Knitting'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Goodreads'
+                            desc='Book reviews & recommendations'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='IMDb'
+                            desc='Movies, TV & Celebrities'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='IMDbPro'
+                            desc='Get Info Entertainment Professionals Need'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Kindle Direct Publishing'
+                            desc='Indie Digital & Print Publishing Made Easy'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Prime Video Direct'
+                            desc='Video Distribution Made Easy'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Shopbop'
+                            desc='Designer Fashion Brands'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Woot!'
+                            desc='Deals and Shenanigans'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Zappos'
+                            desc='Shoes & Clothing'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Ring'
+                            desc='Smart Home Security Systems'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='eero WiFi'
+                            desc='Stream 4K Video in Every Room'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Neighbors App'
+                            desc='Real-Time Crime & Safety Alerts'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Amazin Subscription Boxes'
+                            desc='Top subscription boxes – right to your door'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='PillPack'
+                            desc='Pharmacy Simplified'
+                        />
+                        <FooterGrid
+                            aHref='#'
+                            title='Amazin Second Chance'
+                            desc='Pass it on, trade it in, give it a second life'
+                        />
                     </div>
                 </div>
 
