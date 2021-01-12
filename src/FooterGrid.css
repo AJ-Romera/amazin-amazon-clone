@@ -1,0 +1,18 @@
+.footer__cell {
+    font-size: 11px !important;
+    padding: 0 12px;
+    text-align: left;
+    line-height: 12px;
+}
+
+.footer__aTitle {
+    color: #ddd;
+    white-space: normal;
+}
+
+.footer__aDescText {
+    font-size: 10px;
+    line-height: 11px;
+    color: #999;
+    white-space: normal;
+}
