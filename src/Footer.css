@@ -182,3 +182,34 @@
     color: #999;
     white-space: normal;
 }
+
+.footer__navFooterCopyright {
+    background-color: #131a22;
+    max-width: 100%;
+    margin: 0;
+    padding: 10px 0 30px;
+    font-size: 12px;
+    color: #ddd;
+    text-align: center;
+    line-height: 18px;
+    white-space: nowrap;
+}
+
+.footer__navFooterCopyright ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.footer__navFooterCopyright ul li a {
+    color: #ddd;
+    text-decoration: none;
+    padding: 0 7px;
+}
+
+.footer__navFooterCopyright .footer__navLast {
+    color: #999;
+}

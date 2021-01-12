@@ -307,7 +307,22 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className='footer__navFooterCopyright'>Something</div>
+                <div className='footer__navFooterCopyright'>
+                    <ul>
+                        <li>
+                            <a href='#'>Conditions of Use</a>
+                        </li>
+                        <li>
+                            <a href='#'>Privacy Notice</a>
+                        </li>
+                        <li>
+                            <a href='#'>Interest-Based Ads</a>
+                        </li>
+                        <li className='footer__navLast'>
+                            © 2020-2021, Amazin, Inc. or its affiliates
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     );
