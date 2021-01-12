@@ -24,5 +24,9 @@
 .footer__navFooterVerticalColumn ul li {
     margin: 0 0 10px;
     list-style-type: none;
-    white-space: nowrap;
+    white-space: wrap;
+}
+
+.footer__navFooterVerticalColumn ul li a {
+    color: #ddd;
 }
