@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import FooterColumns from './FooterColumns';
 
 function Footer() {
     return (
@@ -10,53 +11,16 @@ function Footer() {
                         Back to top
                     </span>
                 </a>
-                <div className='footer__navFooterColumns'>
-                    <div className='footer__navFooterVerticalColumn'>
-                        <div className='footer__header'>Get to Know Us</div>
-                        <ul>
-                            <li>Careers</li>
-                            <li>Blog</li>
-                            <li>About Amazin</li>
-                            <li>Investor Relations</li>
-                            <li>Amazin Devices</li>
-                            <li>Amazin Tours</li>
-                        </ul>
-                    </div>
-                    <div className='footer__navFooterVerticalColumn'>
-                        <div className='footer__header'>Get to Know Us</div>
-                        <ul>
-                            <li>Careers</li>
-                            <li>Blog</li>
-                            <li>About Amazin</li>
-                            <li>Investor Relations</li>
-                            <li>Amazin Devices</li>
-                            <li>Amazin Tours</li>
-                        </ul>
-                    </div>
-                    <div className='footer__navFooterVerticalColumn'>
-                        <div className='footer__header'>Get to Know Us</div>
-                        <ul>
-                            <li>Careers</li>
-                            <li>Blog</li>
-                            <li>About Amazin</li>
-                            <li>Investor Relations</li>
-                            <li>Amazin Devices</li>
-                            <li>Amazin Tours</li>
-                        </ul>
-                    </div>
-                    <div className='footer__navFooterVerticalColumn'>
-                        <div className='footer__header'>Get to Know Us</div>
-                        <ul>
-                            <li>Careers</li>
-                            <li>Blog</li>
-                            <li>About Amazin</li>
-                            <li>Investor Relations</li>
-                            <li>Amazin Devices</li>
-                            <li>Amazin Tours</li>
-                        </ul>
-                    </div>
+
+                <div className='footer__row'>
+                    <FooterColumns />
+                    <FooterColumns />
+                    <FooterColumns />
+                    <FooterColumns />
                 </div>
+
                 <div className='footer__navFooterEmptySpaceLine'></div>
+
                 <div className='footer__langCurrencyAndCountry'>
                     <span>
                         <a href='/ref=footer_logo'>
@@ -83,6 +47,7 @@ function Footer() {
                         </div>
                     </span>
                 </div>
+
                 <div className='footer__moreOnAmazin'>
                     <div className='footer__moreOnAmaizinContainer'>
                         <div className='footer__cell'>
@@ -307,6 +272,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
+
                 <div className='footer__navFooterCopyright'>
                     <ul>
                         <li>

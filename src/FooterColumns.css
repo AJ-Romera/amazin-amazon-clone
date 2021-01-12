@@ -1,0 +1,28 @@
+.footer__navFooterVerticalColumn {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    padding: 0 10px;
+}
+
+.footer__header {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 6px 0 14px 0;
+    white-space: nowrap;
+}
+
+.footer__navFooterVerticalColumn ul {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 0px;
+}
+
+.footer__navFooterVerticalColumn ul li {
+    margin: 0 0 10px;
+    list-style-type: none;
+    white-space: nowrap;
+}
