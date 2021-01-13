@@ -2,8 +2,8 @@ import React from 'react';
 import './Footer.css';
 
 /* Components */
-import FooterColumns from './FooterColumns';
-import FooterGrid from './FooterGrid';
+import FooterColumns from './subComponents/FooterColumns';
+import FooterGrid from './subComponents/FooterGrid';
 
 function Footer() {
     return (

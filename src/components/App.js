@@ -2,10 +2,10 @@ import React from 'react';
 import './App.css';
 
 /* Components */
-import Header from './Header';
-import SubHeader from './SubHeader';
-import Home from './Home';
-import Footer from './Footer';
+import Header from './Header/Header';
+import SubHeader from './SubHeader/SubHeader';
+import Home from './Home/Home';
+import Footer from './Footer/Footer';
 
 function App() {
     return (

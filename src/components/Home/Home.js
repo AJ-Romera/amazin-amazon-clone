@@ -2,11 +2,11 @@ import React from 'react';
 import './Home.css';
 
 /* Components */
-import CardUiFat from './CardUiFat';
-import CardUiQuad from './CardUiQuad';
-import CardUiPair from './CardUiPair';
-import ProductSlider from './ProductSlider';
-import PersonalizedRecommendations from './PersonalizedRecommendations';
+import CardUiFat from './subComponents/CardUiFat';
+import CardUiQuad from './subComponents/CardUiQuad';
+import CardUiPair from './subComponents/CardUiPair';
+import ProductSlider from './subComponents/ProductSlider';
+import PersonalizedRecommendations from './subComponents/PersonalizedRecommendations';
 
 function Home() {
     return (
