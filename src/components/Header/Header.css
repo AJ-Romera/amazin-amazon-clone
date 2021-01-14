@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     background-color: #131921;
-    top: 0;
     z-index: 100;
 }
 
@@ -11,18 +10,49 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 60px;
 }
 
 .header__logo {
-    width: 100px;
-    object-fit: contain;
-    margin: 1px;
-    padding: 6px 4px 6px 5px;
-    border: 1px solid transparent;
+    margin-left: 11px;
+    width: auto;
+    padding: 4px 0 0 0;
+    line-height: 0;
+    height: 100%;
 }
 
-.header__logo:hover {
-    border: 1px solid whitesmoke;
+.header__logoLink {
+    display: flex;
+    text-decoration: none;
+    padding: 1px 8px 0 6px;
+    margin: 1px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.header__logoLink:hover {
+    padding: 0 7px 0 5px;
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #fff;
+    outline: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    /* height: 50px;
+    width: 100%; */
+}
+
+.header__logoImg {
+    display: flex;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+    text-indent: -500px;
+    background-position: -10px -51px;
+    background-repeat: repeat-x;
+    margin-top: 12px;
+    width: 97px;
+    height: 30px;
 }
 
 .header__deliveryAddress {
@@ -30,7 +60,7 @@
     align-items: center;
     justify-content: center;
     border: 1px solid transparent;
-    margin: 1px;
+    margin-left: 2px;
     padding: 6px 0px 6px 0px;
 }
 

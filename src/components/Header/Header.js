@@ -11,11 +11,11 @@ function Header() {
     return (
         <div className='header'>
             <div className='header__left'>
-                <img
-                    className='header__logo'
-                    src='http://pngimg.com/uploads/amazon/amazon_PNG11.png'
-                    alt='Amazon Logo'
-                />
+                <div className='header__logo'>
+                    <a href='#' className='header__logoLink'>
+                        <span className='header__logoImg'></span>
+                    </a>
+                </div>
                 <div className='header__deliveryAddress'>
                     <LocationOnIcon className='header__locationOnIcon' />
                     <div className='header__location'>
