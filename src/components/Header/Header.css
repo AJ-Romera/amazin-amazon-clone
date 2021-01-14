@@ -56,42 +56,76 @@
 
 .header__deliveryAddress {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid transparent;
+    /* align-items: center;
+    justify-content: center; */
+    width: auto;
+    height: 60px;
+    padding: 0;
+    margin: 0;
     margin-left: 2px;
-    padding: 6px 0px 6px 0px;
+    text-decoration: none;
+    overflow: hidden;
 }
 
-.header__deliveryAddress:hover {
-    border: 1px solid whitesmoke;
-}
-
-.header__locationOnIcon {
-    color: white;
-    margin: 0px 0px 0px 0px;
-    padding: 0px;
-    height: 22px !important;
+.header__deliveryAddressModal {
     display: flex;
-    align-self: flex-end;
-    justify-self: self-end;
+    width: fit-content;
+}
+
+.header__deliveryAddressPopoverLink {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: fit-content;
+    height: auto;
+    line-height: 39px;
+    padding: 0 9px 0 9px;
+    margin: 5px 2px 5px 0;
+    box-sizing: border-box;
+    box-shadow: none;
+    scroll-margin: 0;
+    overflow: hidden;
+    color: #d6d6d6;
+    font-family: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header__locationIcon {
+    display: flex;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+    background-position: -71px -378px;
+    background-repeat: repeat-x;
+    width: 15px;
+    height: 18px;
+    margin-top: 8px;
 }
 
 .header__location {
     display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: white;
+    flex-flow: column nowrap;
+    margin-left: 3px;
 }
 
 .header__locationLineOne {
+    color: #ccc;
+    margin-top: 0;
+    padding-right: 0;
     font-size: 12px;
+    font-weight: 400;
+    height: 14px;
+    line-height: 14px;
+    white-space: nowrap;
 }
 
 .header__locationLineTwo {
+    color: #fff;
+    padding-bottom: 1px;
+    padding-right: 0;
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 700;
+    line-height: 15px;
+    white-space: nowrap;
 }
 
 .header__search {

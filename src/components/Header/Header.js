@@ -4,7 +4,6 @@ import './Header.css';
 /* Icons */
 import SearchIcon from '@material-ui/icons/Search';
 import FlagIcon from '@material-ui/icons/Flag';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 
 function Header() {
@@ -17,13 +16,19 @@ function Header() {
                     </a>
                 </div>
                 <div className='header__deliveryAddress'>
-                    <LocationOnIcon className='header__locationOnIcon' />
-                    <div className='header__location'>
-                        <span className='header__locationLineOne'>
-                            Deliver to
-                        </span>
-                        <span className='header__locationLineTwo'>EEUU</span>
-                    </div>
+                    <span className='header__deliveryAddressModal'>
+                        <a className='header__deliveryAddressPopoverLink'>
+                            <div className='header__locationIcon'></div>
+                            <div className='header__location'>
+                                <span className='header__locationLineOne'>
+                                    Deliver to
+                                </span>
+                                <span className='header__locationLineTwo'>
+                                    EEUU
+                                </span>
+                            </div>
+                        </a>
+                    </span>
                 </div>
             </div>
 
