@@ -33,8 +33,43 @@ function Header() {
             </div>
 
             <div className='header__search'>
-                <input className='header__searchInput' type='text' />
-                <SearchIcon className='header__searchIcon' />
+                <div className='header__searchNav'>
+                    <form className='header__searchNavBar'>
+                        <div className='header__searchNavBarLeft'>
+                            <div className='header__searchNavDropdown'>
+                                <div className='header__searchNavScope'>
+                                    <div className='header__searchNavFacade'>
+                                        <span className='header__searchNavLabel'>
+                                            All
+                                        </span>
+                                        <i className='header__searchNavIcon'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='header__searchNavBarCenter'>
+                            <div className='header__searchNavField'>
+                                <input
+                                    className='header__searchInput'
+                                    type='text'
+                                    autoComplete='off'
+                                />
+                            </div>
+                        </div>
+                        <div className='header__searchNavBarRight'>
+                            <div className='header__searchNavSubmit'>
+                                <span className='header__searchNavSubmitText'>
+                                    <input
+                                        className='header__searchInput'
+                                        type='submit'
+                                    />
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                {/* <input className='header__searchInput' type='text' />
+                <SearchIcon className='header__searchIcon' /> */}
             </div>
 
             <div className='header__nav'>
@@ -58,7 +93,7 @@ function Header() {
 
                 <div className='header__optionCart'>
                     <ShoppingCartIcon
-                        className='header__ShoppingCartIcon'
+                        className='header__shoppingCartIcon'
                         fontSize='large'
                     />
                     <span className='header__optionLineOne header__cartCount'>
