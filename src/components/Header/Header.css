@@ -91,6 +91,16 @@
     cursor: pointer;
 }
 
+.header__deliveryAddressPopoverLink:hover {
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: none;
+    padding: 0 8px 0 6px;
+    margin: 5px 2px;
+}
+
 .header__locationIcon {
     display: flex;
     background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
