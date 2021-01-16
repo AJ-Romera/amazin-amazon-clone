@@ -2,7 +2,6 @@ import React from 'react';
 import './Header.css';
 
 /* Icons */
-import SearchIcon from '@material-ui/icons/Search';
 import FlagIcon from '@material-ui/icons/Flag';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 
@@ -50,7 +49,7 @@ function Header() {
                         <div className='header__searchNavBarCenter'>
                             <div className='header__searchNavField'>
                                 <input
-                                    className='header__searchInput'
+                                    className='header__searchInputText'
                                     type='text'
                                     autoComplete='off'
                                 />
@@ -60,7 +59,7 @@ function Header() {
                             <div className='header__searchNavSubmit'>
                                 <span className='header__searchNavSubmitText'>
                                     <input
-                                        className='header__searchInput'
+                                        className='header__searchInputSubmit'
                                         type='submit'
                                     />
                                 </span>
@@ -68,8 +67,6 @@ function Header() {
                         </div>
                     </form>
                 </div>
-                {/* <input className='header__searchInput' type='text' />
-                <SearchIcon className='header__searchIcon' /> */}
             </div>
 
             <div className='header__nav'>

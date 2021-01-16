@@ -175,7 +175,7 @@
     border-left: 1px solid #f3f3f3;
     border-top: 1px solid #f3f3f3;
     border-bottom: 1px solid #f3f3f3;
-    height: 40px;
+    height: 38px;
     margin: 0;
     padding-left: 5px;
     overflow: hidden;
@@ -242,11 +242,11 @@
     flex: 1 1 0px;
     border: none;
     border-top: 1px solid transparent;
-    height: 40px;
+    height: 39px;
     background: #fff;
 }
 
-.header__searchInput {
+.header__searchInputText {
     display: flex;
     width: 100%;
     line-height: 15px;
@@ -256,6 +256,7 @@
     height: 38px;
     font-family: inherit;
     font-size: 15px;
+    font-weight: 400;
     background: 0 0;
     color: #111;
     outline: 0;
@@ -269,9 +270,57 @@
     text-transform: none;
     text-shadow: none;
     text-align: start;
-    -webkit-rtl-ordering: logical;
     cursor: text;
-    font: 400 13.3333px Arial;
+}
+
+.header__searchNavBarRight {
+    display: flex;
+    min-width: auto;
+    height: auto;
+}
+
+.header__searchNavSubmit {
+    display: flex;
+    background-color: #febd69;
+    background-image: none;
+    border: none;
+    width: 45px;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    background-position: 0 -381px;
+}
+
+.header__searchNavSubmitText {
+    display: flex;
+    flex: 1 1 auto;
+    width: auto;
+    height: auto;
+    background-position: 2px -280px;
+    text-indent: -500px;
+    color: #111;
+    text-shadow: none;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+    background-repeat: repeat-x;
+    cursor: pointer;
+}
+
+.header__searchInputSubmit {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    background: 0 0;
+    border: none;
+    text-indent: -1000px;
+    line-height: 1px;
+    transition: all 0.1s linear;
 }
 
 .header__nav {
