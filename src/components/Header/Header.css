@@ -213,7 +213,7 @@
     min-width: 19px;
 }
 
-.header__searchNavIcon {
+.header__navIcon {
     position: absolute;
     top: 14px;
     right: 8px;
@@ -323,43 +323,115 @@
     transition: all 0.1s linear;
 }
 
-.header__nav {
+.header__right {
     display: flex;
-    justify-content: space-evenly;
+    height: 60px;
+    /* height: auto; */
+    width: auto;
+    min-width: auto;
+    box-sizing: border-box;
 }
 
-.header__option {
+.header__navTools {
     display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: white;
+    text-decoration: none;
+    margin-top: 2px;
+    padding: 3px 0 0 0;
 }
 
-.header__optionLineOne {
+.header__navTools > .header__navA {
+    display: flex;
+    padding: 0 9px 10px;
+    flex-shrink: 0;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.header__navFlyout {
+    margin: 0 1px 0 1px;
+    padding-bottom: 5px;
+    height: 50px;
+}
+
+.header__navFlyout.header__navA {
+    margin-right: 0;
+    margin-left: 1px;
+    padding-left: 9px;
+}
+
+.header__navA2 {
+    overflow: hidden;
+    /* top: 1px; */
+    box-sizing: border-box;
+}
+
+.header__navA {
+    color: #d6d6d6;
+    line-height: 44px;
+}
+
+a.header__navA {
+    cursor: pointer;
+}
+
+.header__navLinkInner {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-right: 0;
+    justify-content: center;
+    margin: 0;
+}
+
+.header__navLine1 {
+    padding-bottom: 2px;
+    color: #fff;
     font-size: 12px;
-    font-weight: 500;
+    line-height: 14px;
+    height: 14px;
+    font-weight: 400;
+    white-space: nowrap;
 }
 
-.header__optionLineTwo {
-    font-size: 14px;
-    font-weight: 800;
-}
-
-.header__optionCart {
+.header__navLine2 {
     display: flex;
-    align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: white;
-    position: relative;
+    flex-direction: row;
+    margin-left: 1px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+    white-space: nowrap;
 }
 
-.header__cartCount {
-    position: absolute;
-    top: -6px;
-    left: 13px;
-    font-size: 18px;
-    font-weight: 500;
-    color: red;
+.header__navFlag {
+    margin: 0 2px 1px 0;
+    width: 24px;
+    height: 18px;
+    background-image: url(https://m.media-amazon.com/images/S/sash/jYdmIJv-COIU_a2.png);
+}
+
+.header__navFlagUS {
+    background-position: 0 -130px;
+}
+
+.header__navArrow {
+    visibility: visible;
+    margin: 6px 0 0 2px;
+    border-top-color: #a7acb2;
+}
+
+.header__navTools .header__navA2 .header__navLine2 .header__navIcon2 {
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent;
+    border-top: 4px solid #606060;
+    border-bottom-width: 0;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+    background-position: 0 1000px;
+    background-repeat: repeat-x;
 }

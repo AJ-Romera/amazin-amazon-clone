@@ -41,7 +41,7 @@ function Header() {
                                         <span className='header__searchNavLabel'>
                                             All
                                         </span>
-                                        <i className='header__search header__navArrow'></i>
+                                        <i className='header__navIcon'></i>
                                     </div>
                                 </div>
                             </div>
@@ -79,7 +79,7 @@ function Header() {
                             <span className='header__navLine1'></span>
                             <span className='header__navLine2'>
                                 <span className='header__navFlag header__navFlagUS'></span>
-                                <span className='header__ header__navArrow'></span>
+                                <span className='header__navIcon2 header__navArrow'></span>
                             </span>
                         </span>
                     </a>
