@@ -41,7 +41,7 @@ function Header() {
                                         <span className='header__searchNavLabel'>
                                             All
                                         </span>
-                                        <i className='header__searchNavIcon'></i>
+                                        <i className='header__search header__navArrow'></i>
                                     </div>
                                 </div>
                             </div>
@@ -69,34 +69,57 @@ function Header() {
                 </div>
             </div>
 
-            <div className='header__nav'>
-                <div className='header__option'>
-                    <FlagIcon className='header__flagIcon' />
-                </div>
-
-                <div className='header__option'>
-                    <span className='header__optionLineOne'>
-                        Hello, Sign In
-                    </span>
-                    <span className='header__optionLineTwo'>
-                        Account & Lists
-                    </span>
-                </div>
-
-                <div className='header__option'>
-                    <span className='header__optionLineOne'>Returns</span>
-                    <span className='header__optionLineTwo'>& Orders</span>
-                </div>
-
-                <div className='header__optionCart'>
-                    <ShoppingCartIcon
-                        className='header__shoppingCartIcon'
-                        fontSize='large'
-                    />
-                    <span className='header__optionLineOne header__cartCount'>
-                        0
-                    </span>
-                    <span className='header__optionLineTwo'>Cart</span>
+            <div className='header__right'>
+                <div className='header__navTools header__navLayoutToolbar'>
+                    <a
+                        href='example'
+                        className='header__navFlyout header__navA header__navA2 header__LinkStyle'
+                    >
+                        <span className='header__navLinkInner'>
+                            <span className='header__navLine1'></span>
+                            <span className='header__navLine2'>
+                                <span className='header__navFlag header__navFlagUS'></span>
+                                <span className='header__ header__navArrow'></span>
+                            </span>
+                        </span>
+                    </a>
+                    <a
+                        href='example'
+                        className='header__signIn header__navA header__navA2 header__navProgressiveAttribute'
+                    >
+                        <div className='header__navLine1Container'>
+                            <span className='header__navLinkAccountList header__navLine1 header__navProgressiveContent'>
+                                Hello, Sign in
+                            </span>
+                        </div>
+                        <span className='header__navLine2 header__navLongWidth'>
+                            Account & Lists
+                            <span className='header__navIcon header__navArrow'></span>
+                        </span>
+                    </a>
+                    <a
+                        href='example'
+                        className='header__orders header__navA header__navA2 header__navProgressiveAttribute'
+                    >
+                        <span className='header__navLine1'>Returns</span>
+                        <span className='header__navLine2'>& Orders</span>
+                    </a>
+                    <a
+                        href='example'
+                        className='header__cart header__navA header__navA2 header__navProgressiveAttribute'
+                    >
+                        <div className='header__navCartCountContainer'>
+                            <span className='header__navCartCount header__nav-cart-count header__nav-cart-0 header__nav-progressive-attribute header__nav-progressive-content'></span>
+                            <span className='header__navCartIcon'></span>
+                        </div>
+                        <div className='header__navCartTextContainer header__navProgressiveAttribute'>
+                            <span className='header__navLine1'></span>
+                            <span className='header__navLine2'>
+                                Cart
+                                <span className='header__navIcon header__navArrow'></span>
+                            </span>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
