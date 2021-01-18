@@ -109,15 +109,14 @@ function Header() {
                         className='header__cart header__navA header__navA2 header__navProgressiveAttribute'
                     >
                         <div className='header__navCartCountContainer'>
-                            <span className='header__navCartCount header__nav-cart-count header__nav-cart-0 header__nav-progressive-attribute header__nav-progressive-content'></span>
+                            <span className='header__navCartCount header__navCart0 header__navProgressiveAttribute header__navProgressiveContent'>
+                                0
+                            </span>
                             <span className='header__navCartIcon'></span>
                         </div>
                         <div className='header__navCartTextContainer header__navProgressiveAttribute'>
                             <span className='header__navLine1'></span>
-                            <span className='header__navLine2'>
-                                Cart
-                                <span className='header__navIcon header__navArrow'></span>
-                            </span>
+                            <span className='header__navLine2'>Cart</span>
                         </div>
                     </a>
                 </div>
