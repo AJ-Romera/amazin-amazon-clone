@@ -519,6 +519,7 @@ a.header__navA {
     margin-right: 11px;
     padding-left: 9px;
     padding-right: 9px;
+    border-top: 1px solid transparent;
 }
 
 .header__cart:hover {
@@ -532,6 +533,7 @@ a.header__navA {
     outline: 0;
     margin-left: 2px;
     margin-right: 11px;
+    height: 51px;
 }
 
 .header__navCartCountContainer {
