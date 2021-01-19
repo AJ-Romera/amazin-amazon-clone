@@ -6,7 +6,7 @@ import './ProductSlider.css';
 const breakPoints = [
     { width: 1, itemsToShow: 1, itemsToScroll: 1 },
     { width: 550, itemsToShow: 2, itemsToScroll: 2 },
-    { width: 768, itemsToShow: 3, itemsToScroll: 3 },
+    { width: 768, itemsToShow: 6, itemsToScroll: 6 },
     { width: 1300, itemsToShow: 6, itemsToScroll: 6 },
 ];
 
