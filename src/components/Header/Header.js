@@ -1,22 +1,21 @@
 import React from 'react';
 import './Header.css';
 
-/* Icons */
-import FlagIcon from '@material-ui/icons/Flag';
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
-
 function Header() {
     return (
         <div className='header'>
             <div className='header__left'>
                 <div className='header__logo'>
-                    <a href='#' className='header__logoLink'>
+                    <a href='test' className='header__logoLink'>
                         <span className='header__logoImg'></span>
                     </a>
                 </div>
                 <div className='header__deliveryAddress'>
                     <span className='header__deliveryAddressModal'>
-                        <a className='header__deliveryAddressPopoverLink'>
+                        <a
+                            href='test'
+                            className='header__deliveryAddressPopoverLink'
+                        >
                             <div className='header__locationIcon'></div>
                             <div className='header__location'>
                                 <span className='header__locationLineOne'>
