@@ -32,10 +32,10 @@ function MainCarousel() {
                 );
             })}
             <button id='goLeft' onClick={goLeft}>
-                Left
+                <i className='arrowIconLeft'></i>
             </button>
             <button id='goRight' onClick={goRight}>
-                Right
+                <i className='arrowIconRight'></i>
             </button>
         </div>
     );
