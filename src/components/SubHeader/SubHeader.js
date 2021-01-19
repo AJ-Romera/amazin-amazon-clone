@@ -1,15 +1,12 @@
 import React from 'react';
 import './SubHeader.css';
 
-/* Icons */
-import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
-
 function SubHeader() {
     return (
         <div className='subHeader'>
             <div className='subHeader__left'>
                 <div className='subHeader__menu'>
-                    <MenuRoundedIcon className='subHeader__menuIcon' />
+                    <i className='subHeader__menuIcon'></i>
                     <span className='subHeader__all'>All</span>
                 </div>
 
