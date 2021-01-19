@@ -18,13 +18,12 @@
     margin-right: 0;
 }
 
-.home__image {
-    /* In the real amazon they use a carrousel instead of an image */
+.home__carousel {
     width: 100%;
     min-height: 500px;
     object-fit: cover;
     z-index: -1;
-    margin-bottom: -300px;
+    margin-bottom: -270px;
     mask-position: bottom;
     mask-image: linear-gradient(
         to bottom,
@@ -32,4 +31,5 @@
         rgba(0, 0, 0, 0.5) 80%,
         rgba(255, 255, 255, 0) 100%
     );
+    background-position: -300px, 200px;
 }

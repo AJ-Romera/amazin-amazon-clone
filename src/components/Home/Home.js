@@ -7,18 +7,15 @@ import CardUiQuad from './subComponents/CardUiQuad';
 import CardUiPair from './subComponents/CardUiPair';
 import ProductSlider from './subComponents/ProductSlider';
 import PersonalizedRecommendations from './subComponents/PersonalizedRecommendations';
+import MainCarousel from './subComponents/MainCarousel';
 
 function Home() {
     return (
         <div className='home'>
             <div className='home__container'>
-                {/* CARROUSEL / IMG SLIDER */}
-                <img
-                    className='home__image'
-                    src='https://images-eu.ssl-images-amazon.com/images/G/30/digital/video/gateway/placement/launch/ElCidS1/ECID_S1_GWBleedingHero_FT_COVIDUPDATE_XSite_1500X600_PV_es-ES._CB413915935_.jpg'
-                    alt='Home Background'
-                />
-
+                <div className='home__carousel'>
+                    <MainCarousel />
+                </div>
                 <div className='home__row'>
                     <CardUiQuad
                         title='Shop by Category'
