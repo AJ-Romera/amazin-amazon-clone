@@ -127,7 +127,19 @@
     box-shadow: 0 0 2px 0 #333 !important;
 }
 
+.jAmbxV:hover:enabled {
+    color: #888 !important;
+    background-color: rgb(247, 247, 247) !important;
+    box-shadow: 0 0 2px 0 #333 !important;
+}
+
 .lgksPe:focus:enabled {
+    color: #888 !important;
+    background-color: rgb(250, 250, 250) !important;
+    box-shadow: 0 0 2px 0 #333 !important;
+}
+
+.jAmbxV:focus:enabled {
     color: #888 !important;
     background-color: rgb(250, 250, 250) !important;
     box-shadow: 0 0 2px 0 #333 !important;
