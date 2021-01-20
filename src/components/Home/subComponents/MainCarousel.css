@@ -27,6 +27,7 @@
     height: 50%;
     background: none;
     border: none;
+    cursor: pointer;
 }
 
 #goRight {
@@ -38,6 +39,7 @@
     height: 50%;
     background: none;
     border: none;
+    cursor: pointer;
 }
 
 #goLeft:focus {
