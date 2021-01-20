@@ -9,7 +9,7 @@ function CardUiFat({ title, image, footerLink, footerText }) {
             </div>
 
             <div className='cardUiFat__body'>
-                <a className='cardUiFat__link' href='http://www.google.es'>
+                <a className='cardUiFat__link' href='/test'>
                     <div className='cardUiFat__imageContainer'>
                         <img
                             className='cardUiFat__image'

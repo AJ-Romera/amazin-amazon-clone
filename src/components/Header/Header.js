@@ -6,7 +6,7 @@ function Header() {
         <div className='header'>
             <div className='header__left'>
                 <div className='header__logo'>
-                    <a href='test' className='header__logoLink'>
+                    <a href='/' className='header__logoLink'>
                         <span className='header__logoImg'></span>
                     </a>
                 </div>
@@ -71,7 +71,7 @@ function Header() {
             <div className='header__right'>
                 <div className='header__navTools header__navLayoutToolbar'>
                     <a
-                        href='example'
+                        href='test'
                         className='header__navFlyout header__navA header__navA2 header__LinkStyle'
                     >
                         <span className='header__navLinkInner'>
@@ -83,7 +83,7 @@ function Header() {
                         </span>
                     </a>
                     <a
-                        href='example'
+                        href='test'
                         className='header__signIn header__navA header__navA2 header__navProgressiveAttribute'
                     >
                         <div className='header__navLine1Container'>
@@ -97,14 +97,14 @@ function Header() {
                         </span>
                     </a>
                     <a
-                        href='example'
+                        href='test'
                         className='header__orders header__navA header__navA2 header__navProgressiveAttribute'
                     >
                         <span className='header__navLine1'>Returns</span>
                         <span className='header__navLine2'>& Orders</span>
                     </a>
                     <a
-                        href='example'
+                        href='test'
                         className='header__cart header__navA header__navA2 header__navProgressiveAttribute'
                     >
                         <div className='header__navCartCountContainer'>

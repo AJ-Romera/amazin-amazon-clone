@@ -22,7 +22,7 @@ function CardUiQuad({
 
             <div className='cardUiQuad__body'>
                 <div className='cardUiQuad__row1'>
-                    <a className='cardUiQuad__link' href='http://www.google.es'>
+                    <a className='cardUiQuad__link' href='/test'>
                         <div className='cardUiQuad__portion cardUiQuad__portionMarginRight'>
                             <div className='cardUiQuad__imageContainer'>
                                 <img
@@ -39,7 +39,7 @@ function CardUiQuad({
                         </div>
                     </a>
 
-                    <a className='cardUiQuad__link' href='http://www.google.es'>
+                    <a className='cardUiQuad__link' href='/test'>
                         <div className='cardUiQuad__portion'>
                             <div className='cardUiQuad__imageContainer'>
                                 <img
@@ -58,7 +58,7 @@ function CardUiQuad({
                 </div>
 
                 <div className='cardUiQuad__row2'>
-                    <a className='cardUiQuad__link' href='http://www.google.es'>
+                    <a className='cardUiQuad__link' href='/test'>
                         <div className='cardUiQuad__portion cardUiQuad__portionMarginRight'>
                             <div className='cardUiQuad__imageContainer'>
                                 <img
@@ -75,7 +75,7 @@ function CardUiQuad({
                         </div>
                     </a>
 
-                    <a className='cardUiQuad__link' href='http://www.google.es'>
+                    <a className='cardUiQuad__link' href='/test'>
                         <div className='cardUiQuad__portion'>
                             <div className='cardUiQuad__imageContainer'>
                                 <img

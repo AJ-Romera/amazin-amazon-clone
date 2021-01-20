@@ -18,7 +18,7 @@
     display: flex;
     align-items: center;
     margin-left: 11px;
-    padding: 2px 5px;
+    padding: 7px 8px;
     color: white;
     border: 1px solid transparent;
 }
@@ -52,6 +52,8 @@
 .subHeader__option {
     padding: 7px 8px;
     border: 1px solid transparent;
+    text-decoration: none;
+    color: white;
 }
 
 .subHeader__option:hover {

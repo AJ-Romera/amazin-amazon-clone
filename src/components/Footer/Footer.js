@@ -9,7 +9,7 @@ function Footer() {
     return (
         <div className='footer'>
             <div className='footer__navFooter'>
-                <a href='#nav-top' className='footer__navBackToTop'>
+                <a href='/' className='footer__navBackToTop'>
                     <span className='footer__navBackToTopText'>
                         Back to top
                     </span>
@@ -18,12 +18,12 @@ function Footer() {
                 <div className='footer__row'>
                     <FooterColumns
                         footerTitle='Get to Know Us'
-                        aHref1='#'
-                        aHref2='#'
-                        aHref3='#'
-                        aHref4='#'
-                        aHref5='#'
-                        aHref6='#'
+                        aHref1='/test'
+                        aHref2='/test'
+                        aHref3='/test'
+                        aHref4='/test'
+                        aHref5='/test'
+                        aHref6='/test'
                         aHref7=''
                         aHref8=''
                         aText1='Careers'
@@ -37,13 +37,13 @@ function Footer() {
                     />
                     <FooterColumns
                         footerTitle='Make Money with Us'
-                        aHref1='#'
-                        aHref2='#'
-                        aHref3='#'
-                        aHref4='#'
-                        aHref5='#'
-                        aHref6='#'
-                        aHref7='#'
+                        aHref1='/test'
+                        aHref2='/test'
+                        aHref3='/test'
+                        aHref4='/test'
+                        aHref5='/test'
+                        aHref6='/test'
+                        aHref7='/test'
                         aHref8=''
                         aText1='Sell products on Amazin'
                         aText2='Sell apps on Amazin'
@@ -56,10 +56,10 @@ function Footer() {
                     />
                     <FooterColumns
                         footerTitle='Amazin Payment Products'
-                        aHref1='#'
-                        aHref2='#'
-                        aHref3='#'
-                        aHref4='#'
+                        aHref1='/test'
+                        aHref2='/test'
+                        aHref3='/test'
+                        aHref4='/test'
                         aHref5=''
                         aHref6=''
                         aHref7=''
@@ -75,14 +75,14 @@ function Footer() {
                     />
                     <FooterColumns
                         footerTitle='Let Us Help You'
-                        aHref1='#'
-                        aHref2='#'
-                        aHref3='#'
-                        aHref4='#'
-                        aHref5='#'
-                        aHref6='#'
-                        aHref7='#'
-                        aHref8='#'
+                        aHref1='/test'
+                        aHref2='/test'
+                        aHref3='/test'
+                        aHref4='/test'
+                        aHref5='/test'
+                        aHref6='/test'
+                        aHref7='/test'
+                        aHref8='/test'
                         aText1='Amazin and COVID-19'
                         aText2='Your Account'
                         aText3='Your Orders'
@@ -98,24 +98,24 @@ function Footer() {
 
                 <div className='footer__langCurrencyAndCountry'>
                     <span>
-                        <a href='/ref=footer_logo'>
+                        <a href='/test'>
                             <div className='footer__navFooterLogo'></div>
                         </a>
                     </span>
                     <span>
                         <div className='footer__optionsContainer'>
-                            <a href='#'>
+                            <a href='/test'>
                                 <div className='footer__globeIcon'></div>
                                 <span>English</span>
                                 <span className='footer__upDownArrow'></span>
                             </a>
-                            <a href='#'>
+                            <a href='/test'>
                                 <span className='footer__currencySymbol'>
                                     $
                                 </span>
                                 <span>USD - U.S. Dollar</span>
                             </a>
-                            <a href='#'>
+                            <a href='/test'>
                                 <span className='footer__flag'></span>
                                 <span>United States</span>
                             </a>
@@ -126,177 +126,177 @@ function Footer() {
                 <div className='footer__moreOnAmazin'>
                     <div className='footer__moreOnAmaizinContainer'>
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Amazin Music'
                             desc='Stream millions of songs'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Amazin Advertising'
                             desc='Find, attract, and engage customers'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Amazin Drive'
                             desc='Cloud storage from Amazin'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='6pm'
                             desc='Score deals on fashion brands'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='AbeBooks'
                             desc='Books, art & collectibles'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='ACX'
                             desc='Audiobook Publishing Made Easy'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Alexo'
                             desc='Actionable Analytics for the Web'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Sell on Amazin'
                             desc='Start a Selling Account'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Amazin Business'
                             desc='Everything For Your Business'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='AmazinGlobal'
                             desc='Ship Orders Internationally'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Home Services'
                             desc='Experienced Pros Happiness Guarantee'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Amazin Ignite'
                             desc='Sell your original Digital Educational Resources'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Amazin Rapids'
                             desc='Fun stories for kids on the go'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Amazin Web Services'
                             desc='Scalable Cloud Computing Services'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Audible'
                             desc='Listen to Books & Original Audio Performances'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Book Depository'
                             desc='Books With Free Delivery Worldwide'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Box Office Mojo'
                             desc='Find Movie Box Office Data'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='ComiXology'
                             desc='Thousands of Digital Comics'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='DPReview'
                             desc='Digital Photography'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='East Dane'
                             desc='Designer Men´s Fashion'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Fabric'
                             desc='Sewing, Quilting & Knitting'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Goodreads'
                             desc='Book reviews & recommendations'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='IMDb'
                             desc='Movies, TV & Celebrities'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='IMDbPro'
                             desc='Get Info Entertainment Professionals Need'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Kindle Direct Publishing'
                             desc='Indie Digital & Print Publishing Made Easy'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Prime Video Direct'
                             desc='Video Distribution Made Easy'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Shopbop'
                             desc='Designer Fashion Brands'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Woot!'
                             desc='Deals and Shenanigans'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Zappos'
                             desc='Shoes & Clothing'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Ring'
                             desc='Smart Home Security Systems'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='eero WiFi'
                             desc='Stream 4K Video in Every Room'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Neighbors App'
                             desc='Real-Time Crime & Safety Alerts'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Amazin Subscription Boxes'
                             desc='Top subscription boxes – right to your door'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='PillPack'
                             desc='Pharmacy Simplified'
                         />
                         <FooterGrid
-                            aHref='#'
+                            aHref='/test'
                             title='Amazin Second Chance'
                             desc='Pass it on, trade it in, give it a second life'
                         />
@@ -306,13 +306,13 @@ function Footer() {
                 <div className='footer__navFooterCopyright'>
                     <ul>
                         <li>
-                            <a href='#'>Conditions of Use</a>
+                            <a href='/test'>Conditions of Use</a>
                         </li>
                         <li>
-                            <a href='#'>Privacy Notice</a>
+                            <a href='/test'>Privacy Notice</a>
                         </li>
                         <li>
-                            <a href='#'>Interest-Based Ads</a>
+                            <a href='/test'>Interest-Based Ads</a>
                         </li>
                         <li className='footer__navLast'>
                             © 2020-2021, Amazin, Inc. or its affiliates

@@ -46,7 +46,7 @@ function MainCarousel() {
                     </div>
                 );
             })}
-            <button id='goLeft' onclick="location.href = '/';">
+            <button id='goLeft' onClick={goLeft}>
                 <i className='arrowIconLeft'></i>
             </button>
             <button id='goRight' onClick={goRight}>

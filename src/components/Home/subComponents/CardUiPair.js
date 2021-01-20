@@ -9,7 +9,7 @@ function CardUiPair({ image }) {
                     <h2>Sign in for the best experience</h2>
                 </div>
                 <div className='cardUiPair__body'>
-                    <a href='https://www.google.es'>
+                    <a href='/test'>
                         <button>Sign in securely</button>
                     </a>
                 </div>
@@ -17,7 +17,7 @@ function CardUiPair({ image }) {
 
             <div className='cardUiPair__sectionTwo'>
                 <div className='cardUiPair__container'>
-                    <a href='https://www.google.es'>
+                    <a href='/test'>
                         <img
                             src={image}
                             alt='We ship 45 million products around the world'
