@@ -18,6 +18,8 @@
     background: white;
     box-sizing: border-box;
     order: 1;
+    -webkit-box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.05);
 }
 
 .cardUiPair__header {
