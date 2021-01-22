@@ -101,12 +101,9 @@
 
 .header__locationIcon {
     display: flex;
-    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
-    background-position: -71px -378px;
-    background-repeat: repeat-x;
-    width: 15px;
-    height: 18px;
     margin-top: 8px;
+    padding-right: 0;
+    margin-right: ;
 }
 
 .header__location {

@@ -1,6 +1,9 @@
 import React from 'react';
 import './Header.css';
 
+// icons
+import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
+
 function Header() {
     return (
         <div className='header'>
@@ -16,7 +19,9 @@ function Header() {
                             href='test'
                             className='header__deliveryAddressPopoverLink'
                         >
-                            <div className='header__locationIcon'></div>
+                            <div className='header__locationIcon'>
+                                <LocationOnOutlinedIcon fontSize='small' />
+                            </div>
                             <div className='header__location'>
                                 <span className='header__locationLineOne'>
                                     Deliver to
