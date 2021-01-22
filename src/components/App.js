@@ -21,7 +21,7 @@ function App() {
                             <h1 className='test__thankYou'>
                                 Thank you for testing Amazin!
                             </h1>
-                            <a className='test__goBack' href='/'>
+                            <a className='test__goBackButton' href='/'>
                                 Go back to Amazin
                             </a>
                         </div>

@@ -17,14 +17,6 @@
     border-bottom: 1px solid #eaeded;
 }
 
-/* .personalizedRecommendations__titleSection {
-    display: flex;
-    white-space: nowrap;
-    overflow: hidden;
-    margin-bottom: 25px;
-    margin: 10px 0 0;
-} */
-
 .personalizedRecommendations__titleAndButtonSection {
     display: flex;
     flex-direction: column;
@@ -71,37 +63,21 @@
     overflow: hidden;
 }
 
-/* .personalizedRecommendations__titleSection h2 {
-    display: flex;
-    width: auto;
-    font-size: 21px;
-    line-height: 1.5;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-weight: 700;
-    padding-bottom: 0;
+.personalizedRecommendations__body a button:active {
+    -webkit-box-shadow: inset 0px 5px 10px rgba(104, 120, 216, 0.75);
+    -moz-box-shadow: inset 0px 5px 10px rgba(104, 120, 216, 0.75);
+    box-shadow: inset 0px 5px 10px rgba(104, 120, 216, 0.75);
 }
 
-.personalizedRecommendations__titleSection h2 span {
-    color: #444 !important;
+.personalizedRecommendations__body a button:hover {
+    background: linear-gradient(to bottom, #badff8, #68a5d8);
 }
 
-.personalizedRecommendations__titleSection span {
-    display: flex;
-    width: auto;
-    text-align: right;
-    font-size: 14px;
-    align-items: center;
-    padding-left: 15px;
-    line-height: 35px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.personalizedRecommendations__body a button:focus {
+    box-shadow: 0 0 3px 2px rgb(104, 120, 216, 0.5);
+    border-color: #8393e9 #6878d8 #5a6bcc;
+    outline: none;
 }
-
-.personalizedRecommendations__titleSection span a {
-    text-decoration: none;
-    color: #007185;
-} */
 
 .personalizedRecommendations__carouselSection {
     width: 100%;

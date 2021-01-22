@@ -11,7 +11,7 @@
     margin-bottom: 12px;
 }
 
-.test__goBack {
+.test__goBackButton {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -21,12 +21,28 @@
     width: 300px;
     margin: 7px 10px 0 0px;
     padding: 0;
-    background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
-    border-color: #a88734 #9c7e31 #846a29;
+    background: linear-gradient(to bottom, #bae3ff, #64ade9);
+    border-color: #8cbfe9 #97b5ce #1a6099;
     border-radius: 2px;
     border-style: solid;
     border-width: 1px;
     color: #111;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
     overflow: hidden;
+}
+
+.test__goBackButton:active {
+    -webkit-box-shadow: inset 0px 5px 10px rgba(104, 120, 216, 0.75);
+    -moz-box-shadow: inset 0px 5px 10px rgba(104, 120, 216, 0.75);
+    box-shadow: inset 0px 5px 10px rgba(104, 120, 216, 0.75);
+}
+
+.test__goBackButton:hover {
+    background: linear-gradient(to bottom, #badff8, #68a5d8);
+}
+
+.test__goBackButton:focus {
+    box-shadow: 0 0 3px 2px rgb(104, 120, 216, 0.5);
+    border-color: #8393e9 #6878d8 #5a6bcc;
+    outline: none;
 }

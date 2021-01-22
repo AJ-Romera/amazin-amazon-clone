@@ -42,6 +42,10 @@
     padding: 0 20px 56px 20px;
 }
 
+.cardUiPair__body a:focus {
+    outline: none;
+}
+
 .cardUiPair__body a button {
     display: inline-flex;
     text-align: center;
@@ -60,6 +64,22 @@
     color: #111;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
     overflow: hidden;
+}
+
+.cardUiPair__body a button:active {
+    -webkit-box-shadow: inset 0px 5px 10px rgba(104, 120, 216, 0.75);
+    -moz-box-shadow: inset 0px 5px 10px rgba(104, 120, 216, 0.75);
+    box-shadow: inset 0px 5px 10px rgba(104, 120, 216, 0.75);
+}
+
+.cardUiPair__body a button:hover {
+    background: linear-gradient(to bottom, #badff8, #68a5d8);
+}
+
+.cardUiPair__body a button:focus {
+    box-shadow: 0 0 3px 2px rgb(104, 120, 216, 0.5);
+    border-color: #8393e9 #6878d8 #5a6bcc;
+    outline: none;
 }
 
 .cardUiPair__sectionTwo {
