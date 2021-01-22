@@ -277,7 +277,7 @@
 
 .header__searchNavSubmit {
     display: flex;
-    background-color: #febd69;
+    background-color: #64ade9;
     background-image: none;
     border: none;
     width: 45px;
@@ -289,7 +289,7 @@
 }
 
 .header__searchNavSubmit:hover {
-    background-color: #f3a847;
+    background-color: #539cd8;
     background-position: 0 -431px;
 }
 
