@@ -103,7 +103,7 @@
     display: flex;
     margin-top: 8px;
     padding-right: 0;
-    margin-right: ;
+    margin-right: 0;
 }
 
 .header__location {
@@ -196,30 +196,19 @@
 }
 
 .header__searchNavLabel {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     color: #555;
     font-size: 12px;
     line-height: 33px;
-    margin-right: 21px;
+    margin-right: 5px;
     margin-left: 5px;
     min-width: 19px;
-}
-
-.header__navIcon {
-    position: relative;
-    border-style: solid;
-    _border-style: dashed;
-    border-width: 4px;
-    border-color: transparent;
-    border-top: 4px solid #666;
-    border-bottom-width: 0;
-    width: 0;
-    height: 0;
-    font-size: 0;
-    line-height: 0;
 }
 
 .header__searchNavBarCenter {
@@ -425,27 +414,6 @@ a.header__navA {
     background-position: 0 -130px;
 }
 
-.header__navArrow {
-    visibility: visible;
-    margin: 6px 0 0 2px;
-    border-top-color: #a7acb2 !important;
-}
-
-.header__navIcon2 {
-    border-style: solid;
-    border-width: 4px;
-    border-color: transparent;
-    border-top: 4px solid #606060;
-    border-bottom-width: 0;
-    width: 0;
-    height: 0;
-    font-size: 0;
-    line-height: 0;
-    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
-    background-position: 0 1000px;
-    background-repeat: repeat-x;
-}
-
 .header__signIn {
     display: flex;
     margin-right: 0;
@@ -488,6 +456,10 @@ a.header__navA {
 
 .header__navLongWidth {
     display: flex;
+}
+
+.header__arrowFix {
+    height: 0;
 }
 
 .header__orders {

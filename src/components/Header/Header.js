@@ -3,6 +3,7 @@ import './Header.css';
 
 // icons
 import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
+import ArrowDropDownOutlinedIcon from '@material-ui/icons/ArrowDropDownOutlined';
 
 function Header() {
     return (
@@ -43,9 +44,9 @@ function Header() {
                                 <div className='header__searchNavScope'>
                                     <div className='header__searchNavFacade'>
                                         <span className='header__searchNavLabel'>
-                                            All
+                                            All{' '}
+                                            <ArrowDropDownOutlinedIcon fontSize='small' />
                                         </span>
-                                        <i className='header__navIcon'></i>
                                     </div>
                                 </div>
                             </div>
@@ -83,7 +84,9 @@ function Header() {
                             <span className='header__navLine1'></span>
                             <span className='header__navLine2'>
                                 <span className='header__navFlag header__navFlagUS'></span>
-                                <span className='header__navIcon2 header__navArrow'></span>
+                                <span>
+                                    <ArrowDropDownOutlinedIcon fontSize='small' />
+                                </span>
                             </span>
                         </span>
                     </a>
@@ -98,7 +101,9 @@ function Header() {
                         </div>
                         <span className='header__navLine2 header__navLongWidth'>
                             Account & Lists
-                            <span className='header__navIcon header__navArrow'></span>
+                            <span className='header__arrowFix'>
+                                <ArrowDropDownOutlinedIcon fontSize='small' />
+                            </span>
                         </span>
                     </a>
                     <a
