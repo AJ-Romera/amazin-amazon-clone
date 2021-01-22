@@ -45,13 +45,11 @@
 
 .header__logoImg {
     display: flex;
-    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
-    text-indent: -500px;
-    background-position: -10px -51px;
-    background-repeat: repeat-x;
+    background-image: url(../../assets/amazin-logo.png);
+    background-size: cover;
     margin-top: 12px;
-    width: 97px;
-    height: 30px;
+    width: 105px;
+    height: 33px;
 }
 
 .header__deliveryAddress {

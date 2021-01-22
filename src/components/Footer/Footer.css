@@ -57,11 +57,10 @@
 }
 
 .footer__navFooterLogo {
-    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
-    background-position: -10px -90px;
-    background-repeat: repeat-x;
-    width: 76px;
-    height: 23px;
+    background-image: url(../../assets/amazin-logo.png);
+    background-size: cover;
+    width: 86px;
+    height: 27px;
     margin: 0 auto;
     margin-top: 5px;
 }
