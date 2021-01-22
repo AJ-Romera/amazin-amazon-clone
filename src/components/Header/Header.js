@@ -4,6 +4,8 @@ import './Header.css';
 // icons
 import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
 import ArrowDropDownOutlinedIcon from '@material-ui/icons/ArrowDropDownOutlined';
+import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 
 function Header() {
     return (
@@ -62,11 +64,8 @@ function Header() {
                         </div>
                         <div className='header__searchNavBarRight'>
                             <div className='header__searchNavSubmit'>
-                                <span className='header__searchNavSubmitText'>
-                                    <input
-                                        className='header__searchInputSubmit'
-                                        type='submit'
-                                    />
+                                <span className='header__searchNavSubmitIcon'>
+                                    <SearchOutlinedIcon fontSize='large' />
                                 </span>
                             </div>
                         </div>
@@ -121,7 +120,9 @@ function Header() {
                             <span className='header__navCartCount header__navCart0 header__navProgressiveAttribute header__navProgressiveContent'>
                                 0
                             </span>
-                            <span className='header__navCartIcon'></span>
+                            <span className='header__navCartIcon'>
+                                <ShoppingCartIcon fontSize='large' />
+                            </span>
                         </div>
                         <div className='header__navCartTextContainer header__navProgressiveAttribute'>
                             <span className='header__navLine1'></span>
