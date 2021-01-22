@@ -16,7 +16,7 @@
 .header__logo {
     margin-left: 11px;
     width: auto;
-    padding: 4px 0 0 0;
+    padding: 7px 0 0 0;
     line-height: 0;
     height: 100%;
 }
@@ -26,7 +26,7 @@
     text-decoration: none;
     padding: 1px 8px 0 6px;
     margin: 1px;
-    height: 50px;
+    height: 48px;
     cursor: pointer;
 }
 
@@ -459,6 +459,8 @@ a.header__navA {
 }
 
 .header__arrowFix {
+    position: relative;
+    bottom: 4px;
     height: 0;
 }
 
