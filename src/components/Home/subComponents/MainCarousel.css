@@ -52,28 +52,27 @@
 
 .arrowIconLeft {
     position: absolute;
-    background-image: url(https://m.media-amazon.com/images/S/sash/ydDD9hnRfziI$y7.png);
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-position: 0 0;
-    background-size: 68px 52px;
-    width: 34px;
-    height: 52px;
-    outline: 0;
+    background-size: 20px 37px;
+    width: 35px;
+    height: 37px;
     background-repeat: no-repeat;
+    background-image: url(../../../assets/line-angle-left.png);
 }
 
 .arrowIconRight {
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background-position: -34px 0;
-    background-size: 68px 52px;
-    width: 34px;
-    height: 52px;
-    outline: 0;
-    background-image: url(https://m.media-amazon.com/images/S/sash/ydDD9hnRfziI$y7.png);
+    background-size: 20px 37px;
+    width: 35px;
+    height: 37px;
+    background-repeat: no-repeat;
+    background-image: url(../../../assets/line-angle-right.png);
 }

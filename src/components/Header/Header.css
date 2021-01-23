@@ -465,7 +465,7 @@ a.header__navA {
 .header__cart {
     flex-flow: row nowrap !important;
     padding: 0 9px 11px 10px;
-    height: 50px;
+    height: 49px;
     margin-left: 2px;
     margin-right: 11px;
     padding-left: 9px;

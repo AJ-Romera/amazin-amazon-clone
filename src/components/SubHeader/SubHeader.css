@@ -18,7 +18,7 @@
     display: flex;
     align-items: center;
     margin-left: 11px;
-    padding: 7px 8px;
+    padding: 3px 6px;
     color: white;
     border: 1px solid transparent;
 }
@@ -31,12 +31,7 @@
 .subHeader__menuIcon {
     display: flex;
     width: 17px;
-    height: 14px;
-    background-position: -172px -255px;
-    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
-    background-repeat: repeat-x;
-    font-size: 25px;
-    color: #fff;
+    padding-right: 2px;
 }
 
 .subHeader__all {
@@ -68,7 +63,7 @@
 
 .subHeader__msg {
     margin-right: 11px;
-    padding: 5px 10px;
+    padding: 7px 8px;
     border: 1px solid transparent;
 }
 

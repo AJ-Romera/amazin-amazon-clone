@@ -2,13 +2,20 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './SubHeader.css';
 
+// icons
+import MenuIcon from '@material-ui/icons/Menu';
+
 function SubHeader() {
     return (
         <div className='subHeader'>
             <div className='subHeader__left'>
                 <Link to='/test'>
                     <div className='subHeader__menu'>
-                        <i className='subHeader__menuIcon'></i>
+                        {
+                            <span className='subHeader__menuIcon'>
+                                <MenuIcon />
+                            </span>
+                        }
                         <span className='subHeader__all'>All</span>
                     </div>
                 </Link>
