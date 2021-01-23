@@ -102,7 +102,7 @@ function Footer() {
 
                 <div className='footer__langCurrencyAndCountry'>
                     <span>
-                        <a href='/test'>
+                        <a href='/'>
                             <div className='footer__navFooterLogo'></div>
                         </a>
                     </span>

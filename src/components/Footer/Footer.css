@@ -24,12 +24,20 @@
     background-color: #37475a;
 }
 
+.footer__navBackToTopText:hover {
+    background-color: #485769;
+}
+
 .footer__row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.footer__row a:hover {
+    text-decoration: underline;
 }
 
 .footer__navFooterEmptySpaceLine {
@@ -130,6 +138,10 @@
     gap: 15px 40px;
 }
 
+.footer__moreOnAmaizinContainer a:hover {
+    text-decoration: underline;
+}
+
 .footer__navFooterCopyright {
     background-color: #131a22;
     max-width: 100%;
@@ -159,4 +171,8 @@
 
 .footer__navFooterCopyright .footer__navLast {
     color: #999;
+}
+
+.footer__navFooterCopyright a:hover {
+    text-decoration: underline;
 }
