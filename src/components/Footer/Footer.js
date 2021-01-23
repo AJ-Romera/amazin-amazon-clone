@@ -5,6 +5,10 @@ import './Footer.css';
 import FooterColumns from './subComponents/FooterColumns';
 import FooterGrid from './subComponents/FooterGrid';
 
+/* Icons */
+import LanguageIcon from '@material-ui/icons/Language';
+import UnfoldMoreIcon from '@material-ui/icons/UnfoldMore';
+
 function Footer() {
     return (
         <div className='footer'>
@@ -105,9 +109,13 @@ function Footer() {
                     <span>
                         <div className='footer__optionsContainer'>
                             <a href='/test'>
-                                <div className='footer__globeIcon'></div>
+                                <div className='footer__globeIcon'>
+                                    <LanguageIcon style={{ fontSize: 19 }} />
+                                </div>
                                 <span>English</span>
-                                <span className='footer__upDownArrow'></span>
+                                <span className='footer__upDownArrow'>
+                                    <UnfoldMoreIcon style={{ fontSize: 16 }} />
+                                </span>
                             </a>
                             <a href='/test'>
                                 <span className='footer__currencySymbol'>
