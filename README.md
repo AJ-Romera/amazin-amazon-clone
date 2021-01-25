@@ -1,3 +1,22 @@
+# About Amazin
+
+Amazin is an Amazon Homepage clone I did with ReactJS and vanilla CSS (It´s only the frontend).
+
+-   Logo and favicon designed by me using photoshop.
+-   Most of the icons provided by Material-UI
+-   I used props.
+-   Deployed in Firebase
+-   Use a bit of react router
+
+Things I want to improve and maybe implement in the future
+
+-   Backend with NodeJS/Express
+-   Database with MongoDB
+-   Hooks
+-   Obtain images and info dynamically
+-   Responsive desing
+-   Easy authentication with Firebase
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
